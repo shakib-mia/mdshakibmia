@@ -1,15 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Navbar from "./components/Navbar/Navbar";
+import { lato, montserrat } from "./fonts";
+import Social from "./components/Social/Social";
+import "react-tooltip/dist/react-tooltip.css";
 
 export const metadata = {
   title: "Create Next App",
@@ -18,11 +12,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${montserrat.className} ${lato.className}`}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`antialiased flex h-screen flex-col lg:flex-row gap-y-4 lg:gap-6 lg:py-4 lg:px-12`}
       >
-        {children}
+        {/* <div className="h-screen overflow-y-hidden"> */}
+        <Navbar />
+        {/* <div className="w-full lg:h-full"> */}
+        <div className="w-full bg-container rounded-2xl p-4 h-[80vh] lg:h-full overflow-y-auto">
+          {children}
+        </div>
+        {/* </div> */}
+        <Social />
+        {/* </div> */}
       </body>
     </html>
   );

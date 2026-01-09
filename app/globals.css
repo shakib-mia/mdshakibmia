@@ -1,26 +1,129 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply text-white!;
+}
+
+html {
+  @apply scroll-smooth! bg-background;
+}
+
+.container {
+  @apply mx-auto px-4!;
+}
+
+@theme {
+  /* Colors */
+  --color-primary: #0368ff;
+  --color-primary-light: #5899ff;
+  --color-primary-disabled: #5899ff8c;
+  --color-secondary: #ff3e95;
+  --color-accent: #5899ff;
+  --color-background: #221c3e;
+  --color-white: #f2f0ff;
+  --color-white-2: #b5b3bc;
+  --color-container: #0f0920;
+
+  /* Shadows */
+  --shadow-low: 2px 4px 6px rgba(0, 0, 0, 0.18);
+  --shadow-medium: 2px 4px 10px rgba(0, 0, 0, 0.32);
+  --shadow-high: 2px 4px 12px rgba(0, 0, 0, 0.48);
+  --shadow-extra-high: 2px 4px 12px rgba(0, 0, 0, 0.64);
+
+  /* Typography */
+  --font-large-title: 48px;
+  --font-h1: 38px;
+  --font-h2: 28px;
+  --font-h3: 20px;
+  --font-body1: 16px;
+  --font-body2: 12px;
+  --font-caption: 12px;
+  --font-assistive: 10px;
+
+  --font-weight-large-title: 700;
+  --font-weight-h1: 400;
+  --font-weight-h2: 400;
+  --font-weight-h3: 500;
+  --font-weight-body1: 400;
+  --font-weight-body1-bold: 700;
+  --font-weight-button: 700;
+  --font-weight-basic-button: 400;
+  --font-weight-body2: 400;
+  --font-weight-caption: 400;
+  --font-weight-caption-bold: 700;
+  --font-weight-assistive: 400;
+  --font-weight-assistive-bold: 700;
+
+  --font-family-heading: "Montserrat", sans-serif;
+  --font-family-body: "Lato", sans-serif;
+}
+
+/* Apply typography to tags */
+h1 {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-h1);
+  font-weight: var(--font-weight-h1);
+}
+
+h2 {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-h2);
+  font-weight: var(--font-weight-h2);
+}
+
+h3 {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-h3);
+  font-weight: var(--font-weight-h3);
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-body1);
+  font-weight: var(--font-weight-body1);
+}
+
+p {
+  font-family: var(--font-family-body);
+  font-size: var(--font-body1);
+  font-weight: var(--font-weight-body1);
+}
+
+button {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-body1);
+  font-weight: var(--font-weight-button);
+}
+
+small,
+.caption {
+  font-family: var(--font-family-body);
+  font-size: var(--font-caption);
+  font-weight: var(--font-weight-caption);
+}
+
+.assistive-text {
+  font-family: var(--font-family-body);
+  font-size: var(--font-assistive);
+  font-weight: var(--font-weight-assistive);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
