@@ -19,10 +19,10 @@ const page = async ({ params }) => {
     <main className="space-y-8">
       {/* <aside className="lg:sticky top-0 h-fit"> */}
       <section>
-        <h1 className="font-bold!">
+        <h2 className="font-bold!">
           {project?.title} - {project?.category}
-        </h1>
-        <p className="mb-4">{project?.overview}</p>
+        </h2>
+        <p className="my-4">{project?.overview}</p>
         {/* <Image
           src={project?.image}
           alt={project?.title}

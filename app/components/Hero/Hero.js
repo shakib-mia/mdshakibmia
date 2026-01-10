@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Button from "../Button/Button";
 import hero from "./../../assets/hero.jpg";
+import { IoMdDownload } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -34,7 +35,19 @@ const Hero = () => {
           to build practical, future-ready solutions that balance functionality,
           performance, and user experience.
         </p>
-        <Button href="/projects">Know More</Button>
+        <div className="flex gap-4">
+          <Button className="w-1/2 lg:w-fit p-4! lg:py-2!" href="/projects">
+            Know More
+          </Button>
+          <Button
+            href="https://drive.google.com/uc?export=download&id=1VxhSd9Wdi9RxLYFHc6IMcoffDyegOmnO"
+            target="_blank"
+            className="inline-flex md:hidden! justify-center gap-2 items-center w-1/2 p-4! overflow-hidden whitespace-nowrap"
+          >
+            {"Download Resume"}
+            <IoMdDownload className="inline-block mb- text-2xl" />
+          </Button>
+        </div>
       </aside>
     </header>
   );

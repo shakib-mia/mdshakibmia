@@ -16,11 +16,15 @@ const GallerySlider = ({ images }) => {
     >
       <Swiper
         spaceBetween={16}
-        slidesPerView={images.length > 2 ? 2 : 1}
+        // slidesPerView={images.length > 2 ? 2 : 1}
         modules={[Pagination]}
         className="overflow-visible!"
         loop={true}
         pagination={{ clickable: true }}
+        breakpoints={{
+          768: { slidesPerView: 1, spaceBetween: 24 },
+          1024: { slidesPerView: images.length > 2 ? 2 : 1 },
+        }}
       >
         {images.map((imgSrc, index) => (
           <SwiperSlide key={index}>
