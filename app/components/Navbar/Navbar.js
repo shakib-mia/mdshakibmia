@@ -29,8 +29,9 @@ const Navbar = () => {
   // 📌 effect
   useEffect(() => {
     const updatePos = () => {
-      const id = pathname === "/" ? "home" : pathname.replace("/", "");
+      const id = pathname === "/" ? "home" : pathname.split("/")[1];
       const el = document.getElementById(id);
+      console.log({ id, el });
       if (el) setIndicatorPos(el.offsetTop);
     };
 
@@ -70,7 +71,7 @@ const Navbar = () => {
       id="navbar"
       className={`bg-container lg:rounded-2xl relative z-99999 transition-all duration-300 whitespace-nowrap w-full ${
         open ? "lg:w-90" : "lg:w-29"
-      } h-fit lg:h-full`}
+      } lg:h-full`}
       // onMouseEnter={() => setOpen(true)}
       // onMouseLeave={() => setOpen(false)}
     >
@@ -96,19 +97,19 @@ const Navbar = () => {
               open ? "w-16" : "w-16.25"
             } aspect-square rounded-full`}
           />
-          {open && (
-            <aside>
-              <h3>Md. Shakib Mia</h3>
-              <p className="text-sm!">Full Stack Developer</p>
-            </aside>
-          )}
+          {/* {open && ( */}
+          <aside className={open ? "block" : "lg:hidden"}>
+            <h3>Md. Shakib Mia</h3>
+            <p className="text-sm!">Full Stack Developer</p>
+          </aside>
+          {/* )} */}
         </SafeLink>
         {/* Desktop Menu */}
         {/* // 📌 ul wrapper */}
-        <ul className="hidden md:block relative w-full font-normal overflow-hidden">
+        <ul className="hidden md:block relative w-full font-normal">
           {/* Active Indicator */}
           <span
-            className="absolute left-0 w-full h-14 z-0 bg-primary rounded transition-all duration-300"
+            className="absolute left-0 w-full h-14 z-0 bg-primary rounded transition-all duration-300 shadow shadow-primary"
             style={{
               top: indicatorPos,
             }}
@@ -125,12 +126,21 @@ const Navbar = () => {
                 className={`transition px-4 inline-flex  w-full ${
                   open ? "gap-2" : "justify-center"
                 } items-center h-full ${
-                  pathname === item.href || "hover:text-primary"
+                  item.href === "/"
+                    ? pathname === item.href
+                      ? "hover:text-white"
+                      : "hover:text-primary"
+                    : pathname.includes(item.href)
+                    ? "hover:text-white"
+                    : "hover:text-primary"
                 }`}
+                data-tooltip-id={`tooltip-${item.id}`} // unique ID
+                data-tooltip-content={item.name} // tooltip content
               >
                 <span className="text-3xl">{item.icon}</span>
                 {open && item.name}
               </SafeLink>
+              {open || <Tooltip id={`tooltip-${item.id}`} place="right" />}
             </li>
           ))}
         </ul>

@@ -17,9 +17,10 @@ const Hero = () => {
       </aside>
 
       <aside className="col-span-12 lg:col-span-7">
-        <h2 className="font-bold! mb-4">
-          Building Scalable, High-Impact Web Apps
-        </h2>
+        <h1 className="font-bold! mb-4">
+          Building Scalable, <br className="hidden lg:block" /> High-Impact Web
+          Apps
+        </h1>
         <p className="mb-2">
           I’m Md. Shakib Mia, a Full Stack MERN developer with 3+ years of
           experience building high-performance web applications. I specialize in

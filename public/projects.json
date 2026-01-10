@@ -3,6 +3,10 @@
     "id": "template-hearth",
     "slug": "template-hearth-website-template-store",
     "image": "https://i.ibb.co/Pz1B1J9D/templatehearth.png",
+    "otherImages": [
+      "https://i.ibb.co/ynpw0cnz/templatehearth1.png",
+      "https://i.ibb.co/KpwZpXB7/templatehearth2.png"
+    ],
     "title": "Template Hearth",
     "category": "Website Template Marketplace",
     "projectSummary": "Template Hearth is a modern website template marketplace offering clean, production-ready, and SEO-optimized templates for startups, creators, and small businesses.",
@@ -68,6 +72,10 @@
     "id": "adztronaut",
     "slug": "adztronaut-modern-advertising-agency-website",
     "image": "https://i.ibb.co/27pFBn57/adztronaut.png",
+    "otherImages": [
+      "https://i.ibb.co/JW7SLN88/adztronaut1.png",
+      "https://i.ibb.co/B5bxn0s5/adztronaut2.png"
+    ],
     "title": "Adztronaut",
     "category": "Advertising Agency Website",
     "projectSummary": "Adztronaut is a modern, high-performance advertising agency website designed to deliver a clean, engaging, and conversion-focused user experience.",
@@ -264,6 +272,10 @@
     "id": "saasperia",
     "slug": "saasperia-nextjs-saas-website-template",
     "image": "https://i.ibb.co/X0w8tgf/Saa-SPeria.png",
+    "otherImages": [
+      "https://i.ibb.co/p6458cBx/saasperia1.png",
+      "https://i.ibb.co/hF43zmjY/saasperia2.png"
+    ],
     "title": "SaaSPeria",
     "category": "SaaS Website Template",
     "projectSummary": "SaaSPeria is a premium multi-page Next.js SaaS website template designed for project management, remote collaboration, and productivity-focused startups, featuring responsive layouts and smooth animations.",
@@ -330,6 +342,10 @@
     "id": "aaronn",
     "slug": "aaronn-visual-designer-portfolio-website",
     "image": "https://i.ibb.co/Qv04fF6M/aaronn.png",
+    "otherImages": [
+      "https://i.ibb.co/G45CXPwQ/aaronn1.png",
+      "https://i.ibb.co/m5YMCFkr/aaronn2.png"
+    ],
     "title": "Aaronn",
     "category": "Portfolio Website Template",
     "projectSummary": "Aaronn is a premium multi-page portfolio template for visual designers, UI/UX professionals, and creatives, designed to showcase work clearly and professionally with smooth animations and responsive layouts.",
@@ -389,6 +405,97 @@
         "card": "summary_large_image",
         "title": "Aaronn – Visual Designer Portfolio Template",
         "description": "A modern, frontend-ready portfolio template for creatives, built with Next.js/Vite and Tailwind CSS, optimized for responsive design and smooth motion."
+      }
+    }
+  },
+  {
+    "id": "consultiqo",
+    "slug": "consultiqo-business-consultancy-nextjs-site",
+    "title": "Consultiqo",
+    "image": "https://i.ibb.co/1GGLM5Mb/consultiqo.png",
+    "otherImages": [
+      "https://i.ibb.co/dsc7n835/consultiqo1.png",
+      "https://i.ibb.co/XcR7jGt/consultiqo2.png"
+    ],
+    "category": "Consultancy Website Template",
+    "projectSummary": "Consultiqo is a sleek, modern, and fully responsive business consultancy website template. Built for agencies, startups, and freelancers, it delivers pixel-perfect design, SEO optimization, and a professional online presence without complex code.",
+    "overview": "Consultiqo is a multi-page consulting and agency landing page template designed to provide a polished digital presence. Developed with Next.js 15 and Tailwind CSS, the template ensures smooth performance, responsive layouts, and SEO-friendly structure. Ideal for business consultancy firms, marketing agencies, startups, and freelancers, it offers pre-built sections including services, testimonials, achievements, lead capture forms, and statistics to showcase credibility and professionalism.",
+    "objective": "The goal was to create a reusable, frontend-ready template that allows agencies and freelancers to quickly launch a professional website with engaging sections, conversion-focused CTAs, and clean layouts.",
+    "roleAndResponsibilities": [
+      "Frontend implementation using Next.js 15",
+      "Building modular and reusable components",
+      "Structuring multi-page layouts for consultancy needs",
+      "Smooth scrolling and animated transitions with HearthMotion",
+      "Responsive design and SEO optimization",
+      "Preparing the template for easy customization by users"
+    ],
+    "solutionStrategy": "The template adopts a component-driven structure to ensure scalability, maintainability, and modularity. Pre-built sections include Home, Services, Single Service, Pricing/Plans, Contact, Authentication pages, and legal pages. Each section is designed to be easily editable via HTML/CSS for colors, fonts, spacing, images, and content, enabling rapid customization.",
+    "keyFeatures": [
+      "Engaging hero/home section with actionable CTAs",
+      "Service & features showcase with clear layout",
+      "Client testimonials and social proof sections",
+      "Statistics and achievements display",
+      "Lead capture contact forms",
+      "SEO-friendly and responsive design",
+      "Modular and reusable components for easy customization",
+      "Frontend/UI only; ready for API/backend integration"
+    ],
+    "techStack": {
+      "frontend": ["Next.js 15", "React"],
+      "styling": ["Tailwind CSS"],
+      "animation": ["HearthMotion (Lenis + Animate.css)"],
+      "architecture": ["Component-driven, modular frontend"],
+      "seo": ["SEO-friendly structure", "Semantic HTML"]
+    },
+    "performanceAndOptimization": "Optimized for fast loading, responsive layouts, and smooth animations. Modular components and clean markup ensure maintainability, SEO visibility, and high performance across devices.",
+    "challengesAndLearnings": "Balancing modularity, smooth animations, and clear conversion-focused sections was a key challenge. This project enhanced skills in designing professional agency templates with frontend-first approach and SEO optimization.",
+    "finalOutcome": "Consultiqo is a professional, frontend-ready business consultancy website template that demonstrates modern design, modular architecture, SEO optimization, and smooth UX, enabling agencies and freelancers to launch their online presence quickly.",
+    "idealUseCases": [
+      "Business consultancy firms",
+      "Marketing and digital agencies",
+      "Startup consultancy websites",
+      "Freelancers offering professional services",
+      "Frontend template for React/Next.js developers"
+    ],
+    "guides": {
+      "gettingStarted": [
+        "Install dependencies: npm install",
+        "Start local development server: npm run dev",
+        "Build for production (optional): npm run build"
+      ],
+      "customization": [
+        "Images: Replace files in /public or /assets folder",
+        "Design System: Modify global styles (globals.css or tailwind.config.js) for colors, fonts, spacing",
+        "Custom Styles: Edit component-specific CSS or Tailwind classes",
+        "HTML/JSX Content: Update pages and components for headings, sections, and text"
+      ],
+      "usefulLinks": [
+        "Next.js Documentation: https://nextjs.org/docs",
+        "Tailwind CSS Documentation: https://tailwindcss.com/docs",
+        "React Documentation: https://react.dev/"
+      ]
+    },
+    "meta": {
+      "title": "Consultiqo – Sleek Business Consultancy Website Template",
+      "description": "Consultiqo is a modern, responsive consultancy and agency website template built with Next.js 15 and Tailwind CSS. SEO-friendly, modular, and ready for customization.",
+      "keywords": [
+        "business consultancy website template",
+        "agency landing page template",
+        "Next.js frontend template",
+        "Tailwind CSS consulting template",
+        "responsive business website",
+        "SEO-friendly agency template",
+        "freelancer website template"
+      ],
+      "og": {
+        "title": "Consultiqo – Modern Consultancy & Agency Template",
+        "description": "A professional, frontend-ready Next.js consulting website template with responsive layouts and modular components.",
+        "type": "website"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Consultiqo – Sleek Business Consultancy Template",
+        "description": "A modern, responsive consultancy website template with SEO-friendly layouts, pre-built sections, and smooth animations for agencies and freelancers."
       }
     }
   }

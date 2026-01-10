@@ -127,3 +127,11 @@ p {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+#project-gallery .swiper-pagination {
+  @apply static!;
+}
+
+#project-gallery .swiper-pagination-bullet {
+  @apply bg-primary!;
+}

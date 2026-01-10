@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${montserrat.className} ${lato.className}`}>
       <body
-        className={`antialiased flex h-screen flex-col lg:flex-row gap-y-4 lg:gap-6 lg:py-4 lg:px-12`}
+        className={`antialiased flex h-screen flex-col lg:flex-row gap-y-4 lg:gap-6 container px-0! items-center lg:py-6`}
       >
         {/* <div className="h-screen overflow-y-hidden"> */}
         <Navbar />
         {/* <div className="w-full lg:h-full"> */}
-        <div className="w-full bg-container rounded-2xl p-4 h-[80vh] lg:h-full overflow-y-auto">
+        <div className="w-full bg-container rounded-2xl p-4 overflow-y-auto h-full overflow-x-hidden">
           {children}
         </div>
         {/* </div> */}
