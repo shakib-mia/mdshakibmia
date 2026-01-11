@@ -1,3 +1,4 @@
+import Button from "@/app/components/Button/Button";
 import GallerySlider from "@/app/components/GallerySlider/GallerySlider";
 import { projectsCollection } from "@/app/lib/mongodb";
 import Image from "next/image";
@@ -13,7 +14,7 @@ export async function generateStaticParams() {
 const page = async ({ params }) => {
   const { slug } = await params;
   const project = await projectsCollection.findOne({ slug });
-  // console.log(project);
+  console.log(project);
 
   return (
     <main className="space-y-8">
@@ -23,13 +24,7 @@ const page = async ({ params }) => {
           {project?.title} - {project?.category}
         </h2>
         <p className="my-4">{project?.overview}</p>
-        {/* <Image
-          src={project?.image}
-          alt={project?.title}
-          width={800}
-          height={400}
-          className="w-1/2 mx-auto object-cover mt-4 rounded-lg"
-        /> */}
+
         <GallerySlider
           images={
             project.otherImages
@@ -38,12 +33,9 @@ const page = async ({ params }) => {
           }
         />
       </section>
-      {/* </aside>
-      <aside className="space-y-8"> */}
-      {/* <section>
-          <h2 className="font-bold!">Overview</h2>
-          <p>{project?.overview}</p>
-        </section> */}
+      <Button href={project?.livePreview} target="_blank">
+        Live Preview
+      </Button>
       <section>
         <h2 className="font-bold!">Objective</h2>
         <p>{project?.objective}</p>
