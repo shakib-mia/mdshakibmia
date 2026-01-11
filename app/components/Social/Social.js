@@ -15,7 +15,7 @@ const Social = () => {
           href="https://github.com/shakib-mia"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex justify-center items-center w-full aspect-square hover:bg-primary hover:shadow-primary transition rounded-full shadow-high"
+          className="inline-flex justify-center items-center w-full aspect-square text-[#ffffff] hover:text-white hover:bg-[#24292e] hover:shadow-[#24292e] transition rounded-full shadow-high"
         >
           <BsGithub className="text-3xl" />
         </a>
@@ -23,7 +23,7 @@ const Social = () => {
           href="https://linkedin.com/in/mdshakibmia"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex justify-center items-center w-full aspect-square hover:bg-primary hover:shadow-primary transition rounded-full shadow-high"
+          className="inline-flex justify-center items-center w-full aspect-square text-[#0A66C2] hover:text-white hover:bg-[#0A66C2] hover:shadow-[#0A66C2] transition rounded-full shadow-high"
         >
           <BsLinkedin className="text-3xl" />
         </a>
@@ -31,7 +31,7 @@ const Social = () => {
           href="https://x.com/md_shakib_mia"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex justify-center items-center w-full aspect-square hover:bg-primary hover:shadow-primary transition rounded-full shadow-high"
+          className="inline-flex justify-center items-center w-full aspect-square text-[#1DA1F2] hover:text-white hover:bg-[#1DA1F2] hover:shadow-[#1DA1F2] transition rounded-full shadow-high"
         >
           <BsTwitterX className="text-3xl" />
         </a>
@@ -40,7 +40,7 @@ const Social = () => {
           href="https://www.facebook.com/abdullahalsamad.sakib/"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex justify-center items-center w-full aspect-square hover:bg-primary hover:shadow-primary transition rounded-full shadow-high"
+          className="inline-flex justify-center items-center w-full aspect-square text-[#0A66C2] hover:text-white hover:bg-[#0A66C2] hover:shadow-[#0A66C2] transition rounded-full shadow-high"
         >
           <BsFacebook className="text-3xl" />
         </a>
@@ -49,7 +49,7 @@ const Social = () => {
           href="https://web.whatsapp.com/send/?phone=%2B8801832492467&text&type=phone_number&app_absent=0"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex justify-center items-center w-full aspect-square hover:bg-primary hover:shadow-primary transition rounded-full shadow-high"
+          className="inline-flex justify-center items-center w-full aspect-square text-[#25D366] hover:text-white hover:bg-[#25D366] hover:shadow-[#25D366] transition rounded-full shadow-high"
         >
           <BsWhatsapp className="text-3xl" />
         </a>
