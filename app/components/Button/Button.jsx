@@ -4,6 +4,7 @@ import SafeLink from "../SafeLink/SafeLink";
 
 const Button = (props) => {
   const { children, className, ...rest } = props;
+  // console.log(rest);
   // console.log(props);
   return props.href ? (
     <SafeLink

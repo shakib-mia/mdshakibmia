@@ -12,15 +12,20 @@ export default function SafeLink({
   ...props
 }) {
   const router = useRouter();
+  console.log(props);
 
   const handleClick = (e) => {
     if (onClick) onClick(e);
 
+    // 🔥 If target is _blank, let browser handle it
+    if (props.target === "_blank") {
+      return;
+    }
+
     if (!e.defaultPrevented) {
       e.preventDefault();
 
-      // Cleanup HearthMotion before navigation
-      if (window.HearthMotion && window.HearthMotion.cleanup) {
+      if (window.HearthMotion?.cleanup) {
         try {
           window.HearthMotion.cleanup();
         } catch (error) {
@@ -28,12 +33,9 @@ export default function SafeLink({
         }
       }
 
-      // Navigate after cleanup
       setTimeout(() => {
         router.push(href);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-        }, 11);
+        setTimeout(() => window.scrollTo(0, 0), 11);
       }, 10);
     }
   };

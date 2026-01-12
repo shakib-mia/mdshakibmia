@@ -3,6 +3,7 @@
     "id": "template-hearth",
     "slug": "template-hearth-website-template-store",
     "image": "https://i.ibb.co/Pz1B1J9D/templatehearth.png",
+    "livePreview": "https://templatehearth.vercel.app/",
     "otherImages": [
       "https://i.ibb.co/ynpw0cnz/templatehearth1.png",
       "https://i.ibb.co/KpwZpXB7/templatehearth2.png"
@@ -72,6 +73,7 @@
     "id": "adztronaut",
     "slug": "adztronaut-modern-advertising-agency-website",
     "image": "https://i.ibb.co/27pFBn57/adztronaut.png",
+    "livePreview": "adztronaut.com",
     "otherImages": [
       "https://i.ibb.co/JW7SLN88/adztronaut1.png",
       "https://i.ibb.co/B5bxn0s5/adztronaut2.png"
@@ -141,6 +143,7 @@
   {
     "id": "geetbazaar",
     "slug": "geetbazaar-music-distribution-platform",
+    "livePreview": "https://geetbazaar-landing.vercel.app/",
     "image": "https://i.ibb.co/cKcsy0g6/Geet-Bazaar.png",
     "title": "GeetBazaar",
     "category": "Music Distribution Platform",
@@ -206,6 +209,7 @@
   {
     "id": "growcial-bull",
     "slug": "growcial-bull-modern-crypto-trading-landing-page",
+    "livePreview": "https://growcialbull.com/",
     "image": "https://i.ibb.co/x8fkmW1r/Growcial-Bull.png",
     "title": "Growcial Bull",
     "category": "Crypto & Trading Academy Website",
@@ -272,6 +276,7 @@
     "id": "saasperia",
     "slug": "saasperia-nextjs-saas-website-template",
     "image": "https://i.ibb.co/X0w8tgf/Saa-SPeria.png",
+    "livePreview": "https://saasperia-next.vercel.app/",
     "otherImages": [
       "https://i.ibb.co/p6458cBx/saasperia1.png",
       "https://i.ibb.co/hF43zmjY/saasperia2.png"
@@ -341,6 +346,7 @@
   {
     "id": "aaronn",
     "slug": "aaronn-visual-designer-portfolio-website",
+    "livePreview": "https://aaronn-th.vercel.app/",
     "image": "https://i.ibb.co/Qv04fF6M/aaronn.png",
     "otherImages": [
       "https://i.ibb.co/G45CXPwQ/aaronn1.png",
@@ -411,6 +417,7 @@
   {
     "id": "consultiqo",
     "slug": "consultiqo-business-consultancy-nextjs-site",
+    "livePreview": "https://consultiqo-next.vercel.app/",
     "title": "Consultiqo",
     "image": "https://i.ibb.co/1GGLM5Mb/consultiqo.png",
     "otherImages": [

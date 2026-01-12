@@ -6,7 +6,7 @@ const AboutText = () => {
       <h1 className="font-bold! mb-4">
         From Zero to Full Stack – My Web Development Journey
       </h1>
-      <div className="space-y-4">
+      <div className="space-y-4 text-xl">
         <p>
           During the COVID pandemic, I was in my first year of honours. Classes
           had just started, but after two months, everything got locked down.

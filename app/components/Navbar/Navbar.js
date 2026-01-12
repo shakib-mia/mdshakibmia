@@ -44,7 +44,12 @@ const Navbar = () => {
   // 🔹 Navbar items array
   const navItems = [
     { icon: <MdOutlineHome />, name: "Home", id: "home", href: "/" },
-    { icon: <MdOutlinePerson />, name: "About", id: "about", href: "/about" },
+    {
+      icon: <MdOutlinePerson />,
+      name: "My Journey",
+      id: "my-journey",
+      href: "/my-journey",
+    },
     {
       icon: <MdOutlineWork />,
       name: "Projects",
@@ -106,7 +111,7 @@ const Navbar = () => {
         </SafeLink>
         {/* Desktop Menu */}
         {/* // 📌 ul wrapper */}
-        <ul className="hidden md:block relative w-full font-normal">
+        <ul className="hidden lg:block relative w-full font-normal">
           {/* Active Indicator */}
           <span
             className="absolute left-0 w-full h-14 z-0 bg-primary rounded transition-all duration-300 shadow shadow-primary"
@@ -147,7 +152,7 @@ const Navbar = () => {
         <Button
           href="https://drive.google.com/uc?export=download&id=1VxhSd9Wdi9RxLYFHc6IMcoffDyegOmnO"
           target="_blank"
-          className="hidden! md:inline-flex! justify-center gap-2 items-center w-full p-4! overflow-hidden"
+          className="hidden! lg:inline-flex! justify-center gap-2 items-center w-full p-4! overflow-hidden"
           data-tooltip-id={`tooltip-dl-resume`} // unique ID
           data-tooltip-content="Download Resume" // tooltip content
         >
@@ -157,12 +162,12 @@ const Navbar = () => {
         <Tooltip id={`tooltip-dl-resume`} place="right" />
         {/* CTA & Hamburger */}
         <div className="flex lg:hidden items-center h-fit">
-          {/* <Button className="hidden! md:block!" href="/login" target="_blank">
+          {/* <Button className="hidden! lg:block!" href="/login" target="_blank">
             Get Started
           </Button> */}
 
           <button
-            className="md:hidden focus:outline-none ml-2 text-5xl"
+            className="lg:hidden focus:outline-none ml-2 text-5xl"
             onClick={() => showPhoneNav(!phoneNav)}
           >
             {phoneNav ? (
@@ -174,7 +179,7 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         <div
-          className={`absolute top-full left-0 w-full bg-container text-white shadow-md md:hidden max-h-80 transition-[height] overflow-hidden ${
+          className={`absolute top-full left-0 w-full bg-container text-white shadow-md lg:hidden max-h-80 transition-[height] overflow-hidden ${
             phoneNav ? "h-96" : "h-0"
           }`}
         >

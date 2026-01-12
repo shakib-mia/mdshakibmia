@@ -36,9 +36,9 @@ const Hero = () => {
           performance, and user experience.
         </p>
         <div className="flex gap-4">
-          {/* <Button className="w-1/2 lg:w-fit p-4! lg:py-2!" href="/projects">
-            Know More
-          </Button> */}
+          <Button className="w-1/2 lg:w-fit p-4! lg:py-2!" href="/contact">
+            Get Started
+          </Button>
           <Button
             href="https://drive.google.com/uc?export=download&id=1VxhSd9Wdi9RxLYFHc6IMcoffDyegOmnO"
             target="_blank"

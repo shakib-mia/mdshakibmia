@@ -14,7 +14,6 @@ export async function generateStaticParams() {
 const page = async ({ params }) => {
   const { slug } = await params;
   const project = await projectsCollection.findOne({ slug });
-  console.log(project);
 
   return (
     <main className="space-y-8">
