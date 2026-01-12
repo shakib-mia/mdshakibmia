@@ -19,31 +19,32 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    Swal.fire("Message sent successfully!");
-    // // Example: fetch to /api/contact
-    // try {
-    //   const res = await fetch("/api/contact", {
-    //     method: "POST",
-    //     headers: { "Content-Type": "application/json" },
-    //     body: JSON.stringify(formData),
-    //   });
+    // Example: fetch to /api/contact
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    //   const data = await res.json();
+      const data = await res.json();
 
-    //   if (res.ok) {
-    //     e.target.reset();
-    //     setFormData({ name: "", email: "", subject: "", message: "" });
-    //   } else {
-    //     alert(data.error || "Failed to send message");
-    //   }
-    // } catch (err) {
-    //   alert("Something went wrong");
-    //   console.error(err);
-    // }
+      if (res.ok) {
+        e.target.reset();
+        Swal.fire("Message sent successfully!");
+
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        Swal.fire(data.error || "Failed to send message");
+      }
+    } catch (err) {
+      Swal.fire("Something went wrong");
+      console.error(err);
+    }
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-full py-12 px-4">
+    <div className="flex flex-col md:justify-center md:items-center md:h-full lg:py-12 px-4">
       <div className="lg:w-1/3 text-center mx-auto">
         <h1 className="font-bold! mb-2">Contact Me</h1>
         <p>
@@ -54,7 +55,7 @@ const ContactPage = () => {
 
       <form
         onSubmit={handleSubmit}
-        className="lg:w-1/2 shadow-[0_0_20px_8px] mx-auto p-6 shadow-primary/20 mt-12 space-y-4 rounded-lg"
+        className="w-full lg:w-1/2 shadow-[0_0_20px_8px] mx-auto p-6 shadow-primary/20 mt-12 space-y-4 rounded-lg"
       >
         <Input
           label="Name"

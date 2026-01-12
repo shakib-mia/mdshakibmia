@@ -10,8 +10,12 @@ const Projects = async ({ pathname }) => {
     .limit(pathname === "/" ? 3 : 0)
     .toArray();
   return (
-    <section className="mt-12">
-      <h2 className="font-bold! mb-2 text-center">Featured Works</h2>
+    <section className={pathname === "/" && "mt-12"}>
+      {pathname === "/" ? (
+        <h2 className="font-bold! mb-2 text-center">Featured Works</h2>
+      ) : (
+        <h1 className="font-bold! mb-2 text-center">Featured Works</h1>
+      )}
       <p className="lg:w-5/12 mx-auto text-center">
         A selection of featured projects including website templates, SaaS
         websites, agency platforms, and real-world products—built with a focus
