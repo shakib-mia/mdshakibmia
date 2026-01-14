@@ -48,6 +48,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${raleway.className} ${inter.className}`}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="6mY5DUE_r-6_TFQBAgw6akpZgBgyjYxF4GXrYDaz6lI"
+        />
+      </head>
       <body
         className={`antialiased flex h-screen flex-col lg:flex-row gap-y-4 lg:gap-6 container px-0! items-center lg:py-6`}
       >
