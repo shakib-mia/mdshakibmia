@@ -32,7 +32,7 @@ const Projects = async ({ pathname }) => {
               className="w-full object-cover mb-2 rounded-lg"
               // unoptimized
             />
-            <h3 className="font-bold">
+            <h3 className="font-semibold!">
               {project.title} - {project.category}
             </h3>
           </Link>

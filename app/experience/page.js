@@ -65,7 +65,7 @@ const page = () => {
               <div className="flex items-end gap-3">
                 <h2 className="text-xl font-semibold!">{exp.role}</h2>
               </div>
-              <p className="text-white mb-4">
+              <p className="text-white mb-2">
                 {exp.company}{" "}
                 <span className="text-sm text-white-2">({exp.duration})</span>
               </p>

@@ -1,6 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
-import { lato, montserrat } from "./fonts";
+import { inter, raleway } from "./fonts";
 import Social from "./components/Social/Social";
 import "react-tooltip/dist/react-tooltip.css";
 
@@ -47,7 +47,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${montserrat.className} ${lato.className}`}>
+    <html lang="en" className={`${raleway.className} ${inter.className}`}>
       <body
         className={`antialiased flex h-screen flex-col lg:flex-row gap-y-4 lg:gap-6 container px-0! items-center lg:py-6`}
       >

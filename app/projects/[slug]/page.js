@@ -1,7 +1,7 @@
 import Button from "@/app/components/Button/Button";
 import GallerySlider from "@/app/components/GallerySlider/GallerySlider";
 import { projectsCollection } from "@/app/lib/mongodb";
-import Image from "next/image";
+import { notFound } from "next/navigation";
 import React from "react";
 
 export async function generateStaticParams() {
@@ -15,13 +15,17 @@ const page = async ({ params }) => {
   const { slug } = await params;
   const project = await projectsCollection.findOne({ slug });
 
+  if (project === null) {
+    return notFound();
+  }
+
   return (
     <main className="space-y-8">
       {/* <aside className="lg:sticky top-0 h-fit"> */}
       <section>
-        <h2 className="font-bold!">
+        <h1 className="font-bold!">
           {project?.title} - {project?.category}
-        </h2>
+        </h1>
         <p className="my-4">{project?.overview}</p>
 
         <GallerySlider

@@ -55,8 +55,8 @@ html {
   --font-weight-assistive: 400;
   --font-weight-assistive-bold: 700;
 
-  --font-family-heading: "Montserrat", sans-serif;
-  --font-family-body: "Lato", sans-serif;
+  --font-family-heading: "Raleway", sans-serif;
+  --font-family-body: "Inter", sans-serif;
 }
 
 /* Apply typography to tags */
@@ -118,11 +118,11 @@ h4,
 h5,
 h6,
 button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 ::-webkit-scrollbar {

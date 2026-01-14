@@ -31,7 +31,7 @@ const Social = () => {
           href="https://x.com/md_shakib_mia"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex justify-center items-center w-full aspect-square text-[#1DA1F2] hover:text-white hover:bg-[#1DA1F2] hover:shadow-[#1DA1F2] transition rounded-full shadow-high"
+          className="inline-flex justify-center items-center w-full aspect-square text-white hover:text-black hover:bg-white hover:shadow-white transition rounded-full shadow-high"
         >
           <BsTwitterX className="text-3xl" />
         </a>

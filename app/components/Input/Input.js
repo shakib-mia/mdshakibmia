@@ -14,7 +14,7 @@ export default function Input({
   return (
     <div className="flex flex-col gap-1 w-full">
       {label && (
-        <label htmlFor={name} className="font-medium">
+        <label htmlFor={name} className="font-medium ml-2">
           {label}
         </label>
       )}
@@ -27,7 +27,7 @@ export default function Input({
           value={value}
           onChange={onChange}
           required={required}
-          className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 resize-none w-full"
+          className="p-3 border border-gray-300 rounded-md focus:outline-none focus:shadow-primary focus:shadow resize-none w-full"
           rows={5}
         />
       ) : (
@@ -39,7 +39,7 @@ export default function Input({
           value={value}
           onChange={onChange}
           required={required}
-          className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 w-full"
+          className="p-3 border border-gray-300 rounded-md focus:outline-none focus:shadow-primary focus:shadow w-full"
         />
       )}
     </div>
