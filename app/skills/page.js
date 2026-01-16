@@ -13,6 +13,67 @@ import {
 } from "react-icons/si";
 import { TbBrandFirebase, TbBrandOauth } from "react-icons/tb";
 
+export const metadata = {
+  metadataBase: new URL(process.env.DOMAIN_NAME),
+  title: {
+    default: "Skills - Md. Shakib Mia",
+    template: "%s | Md. Shakib Mia",
+  },
+  description:
+    "Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
+
+  keywords: [
+    "Full Stack Developer skills",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Firebase Auth",
+    "TailwindCSS",
+    "Redux",
+    "OpenAI API",
+    "Ollama",
+    "Web Development Portfolio",
+    "Deployment",
+    "Payment Flows",
+  ],
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Skills - Md. Shakib Mia",
+    description:
+      "Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
+    url: `${process.env.DOMAIN_NAME}/skills`,
+    type: "website",
+    siteName: "Md. Shakib Mia Portfolio",
+    locale: "en_US",
+    images: [
+      {
+        url: `${process.env.DOMAIN_NAME}skills-og.png`, // skills page hero/preview image
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Skills - Md. Shakib Mia",
+    description:
+      "Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
+    site: "@shakib_mia",
+  },
+
+  alternates: {
+    canonical: `${process.env.DOMAIN_NAME}/skills`,
+  },
+};
+
 const page = () => {
   const skills = [
     {

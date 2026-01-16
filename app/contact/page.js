@@ -1,110 +1,57 @@
-"use client"; // client component needed for useState and form interactivity
-import React, { useState } from "react";
-import Input from "../components/Input/Input";
-import Button from "../components/Button/Button";
-import Swal from "sweetalert2";
+import Contact from "../components/Contact/Contact";
+
+export const metadata = {
+  metadataBase: new URL(process.env.DOMAIN_NAME),
+  title: {
+    default: "Contact Me - Md. Shakib Mia",
+    template: "%s | Md. Shakib Mia",
+  },
+  description:
+    "Get in touch with Md. Shakib Mia, a Full Stack Web Developer. Share your project ideas, inquiries, or just say hi through this contact form.",
+
+  keywords: [
+    "Contact Md. Shakib Mia",
+    "Full Stack Developer Contact",
+    "MERN Stack Developer",
+    "Portfolio Contact",
+    "Web Development Inquiries",
+    "Project Collaboration",
+    "Email Md. Shakib Mia",
+    "Message Md. Shakib Mia",
+  ],
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Contact Me - Md. Shakib Mia",
+    description:
+      "Get in touch with Md. Shakib Mia, a Full Stack Web Developer. Share your project ideas, inquiries, or just say hi through this contact form.",
+    url: `${process.env.DOMAIN_NAME}/contact`,
+    type: "website",
+    siteName: "Md. Shakib Mia Portfolio",
+    locale: "en_US",
+    // images: [] // Optional, can leave empty if no image
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Me - Md. Shakib Mia",
+    description:
+      "Get in touch with Md. Shakib Mia, a Full Stack Web Developer. Share your project ideas, inquiries, or just say hi through this contact form.",
+    site: "@shakib_mia",
+    // image: undefined
+  },
+
+  alternates: {
+    canonical: `${process.env.DOMAIN_NAME}/contact`,
+  },
+};
 
 const ContactPage = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Example: fetch to /api/contact
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      const data = await res.json();
-
-      if (res.ok) {
-        e.target.reset();
-        Swal.fire("Message sent successfully!");
-
-        setFormData({ name: "", email: "", subject: "", message: "" });
-      } else {
-        Swal.fire(data.error || "Failed to send message");
-      }
-    } catch (err) {
-      Swal.fire("Something went wrong");
-      console.error(err);
-    }
-  };
-
-  return (
-    <div className="flex flex-col md:justify-center md:items-center md:h-full lg:py-12 px-4">
-      <div className="lg:w-1/3 text-center mx-auto">
-        <h1 className="font-bold! mb-2">Contact Me</h1>
-        <p>
-          Have a project, idea, or just want to say hi? Drop me a message and
-          I’ll get back to you soon.
-        </p>
-      </div>
-
-      <form
-        onSubmit={handleSubmit}
-        className="w-full lg:w-1/2 shadow-[0_0_20px_8px] mx-auto p-6 shadow-primary/20 mt-12 space-y-4 rounded-lg"
-      >
-        <Input
-          label="Name"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          // required
-        />
-        <Input
-          label="Email"
-          name="email"
-          type="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          // required
-        />
-        <Input
-          label="Subject"
-          name="subject"
-          type="text"
-          placeholder="Subject"
-          value={formData.subject}
-          onChange={handleChange}
-          // required
-        />
-        <Input
-          label="Message"
-          name="message"
-          isTextarea={true}
-          placeholder="Your Message"
-          value={formData.message}
-          onChange={handleChange}
-          // required
-        />
-
-        {/* <button
-          type="submit"
-          className="bg-violet-600 text-white p-2 rounded hover:bg-violet-700 transition w-full"
-        >
-          Send
-        </button> */}
-        <Button className="w-full" type="submit">
-          Send
-        </Button>
-      </form>
-    </div>
-  );
+  return <Contact />;
 };
 
 export default ContactPage;

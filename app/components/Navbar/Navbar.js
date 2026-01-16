@@ -89,7 +89,7 @@ const Navbar = () => {
           className={`transition-transform ${open ? "rotate-0" : "rotate-180"}`}
         />
       </div>
-      <div className="flex lg:flex-col h-fit lg:h-full justify-between relative p-4 items-center">
+      <div className="flex lg:flex-col h-fit lg:h-full justify-between relative p-4 items-center container">
         {/* Logo */}
         <SafeLink
           href="/"
@@ -104,7 +104,8 @@ const Navbar = () => {
           />
           {/* {open && ( */}
           <aside className={open ? "block" : "lg:hidden"}>
-            <h3>Md. Shakib Mia</h3>
+            <h2 className="lg:hidden font-bold!">Md. Shakib Mia</h2>
+            <h3 className="hidden lg:block font-bold!">Md. Shakib Mia</h3>
             <p className="text-sm!">Full Stack Developer</p>
           </aside>
           {/* )} */}
@@ -177,34 +178,34 @@ const Navbar = () => {
             )}
           </button>
         </div>
-        {/* Mobile Menu */}
-        <div
-          className={`absolute top-full left-0 w-full bg-container text-white shadow-md lg:hidden max-h-80 transition-[height] overflow-hidden ${
-            phoneNav ? "h-96" : "h-0"
-          }`}
-        >
-          <ul className="flex flex-col divide-y font-medium">
-            {navItems.map((item) => (
-              <li key={item.href}>
-                <SafeLink
-                  href={item.href}
-                  className="hover:text-purple-600 inline-block py-2 px-4 w-full"
-                >
-                  {item.name}
-                </SafeLink>
-              </li>
-            ))}
-            <li className="container py-3">
-              <Button
-                href="https://drive.google.com/uc?export=download&id=1VxhSd9Wdi9RxLYFHc6IMcoffDyegOmnO"
-                target="_blank"
-                className="inline-block w-full text-center"
+      </div>
+      {/* Mobile Menu */}
+      <div
+        className={`absolute top-full left-0 w-full bg-container text-white shadow-lg shadow-primary/20 lg:hidden max-h-89 transition-[height] overflow-hidden ${
+          phoneNav ? "h-96" : "h-0"
+        }`}
+      >
+        <ul className="flex flex-col divide-y divide-white/20 font-medium">
+          {navItems.map((item) => (
+            <li className="" key={item.href}>
+              <SafeLink
+                href={item.href}
+                className="hover:bg-primary hover:text-white inline-block w-full py-3 transition"
               >
-                Get Started
-              </Button>
+                <div className="container mx-auto">{item.name}</div>
+              </SafeLink>
             </li>
-          </ul>
-        </div>
+          ))}
+          <li className="container py-3">
+            <Button
+              href="https://drive.google.com/uc?export=download&id=1VxhSd9Wdi9RxLYFHc6IMcoffDyegOmnO"
+              target="_blank"
+              className="inline-block w-full text-center"
+            >
+              Get Started
+            </Button>
+          </li>
+        </ul>
       </div>
     </nav>
   );

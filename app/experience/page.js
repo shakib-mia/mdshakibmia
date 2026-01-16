@@ -2,6 +2,58 @@ import React from "react";
 import laptop from "@/app/assets/laptop.jpg";
 import Image from "next/image";
 
+export const metadata = {
+  metadataBase: new URL(process.env.DOMAIN_NAME),
+  title: {
+    default: "Professional Experience - Md. Shakib Mia",
+    template: "%s | Md. Shakib Mia",
+  },
+  description:
+    "Explore the professional experience of Md. Shakib Mia, a Full Stack Web Developer specializing in MERN stack, with hands-on experience building production-ready web applications, SaaS platforms, and digital products.",
+
+  keywords: [
+    "Full Stack Developer",
+    "MERN Stack",
+    "React.js",
+    "Next.js",
+    "Professional Experience",
+    "Web Development Portfolio",
+    "Frontend Developer",
+    "Backend Developer",
+    "Portfolio",
+    "SaaS Platforms",
+    "Digital Products",
+  ],
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Professional Experience - Md. Shakib Mia",
+    description:
+      "Explore the professional experience of Md. Shakib Mia, a Full Stack Web Developer specializing in MERN stack, with hands-on experience building production-ready web applications, SaaS platforms, and digital products.",
+    url: `${process.env.DOMAIN_NAME}/experience`,
+    type: "website",
+    siteName: "Md. Shakib Mia Portfolio",
+    locale: "en_US",
+    images: [],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Professional Experience - Md. Shakib Mia",
+    description:
+      "Explore the professional experience of Md. Shakib Mia, a Full Stack Web Developer specializing in MERN stack, with hands-on experience building production-ready web applications, SaaS platforms, and digital products.",
+    site: "@shakib_mia",
+  },
+
+  alternates: {
+    canonical: `${process.env.DOMAIN_NAME}/experience`,
+  },
+};
+
 const page = () => {
   const experiences = [
     {

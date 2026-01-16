@@ -55,13 +55,15 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`antialiased flex h-screen flex-col lg:flex-row gap-y-4 lg:gap-6 container px-0! items-center lg:py-6`}
+        className={`antialiased w-full items-center lg:container lg:mx-auto h-screen lg:px-0 lg:py-6`}
       >
-        <Navbar />
-        <div className="w-full bg-container rounded-2xl p-4 overflow-y-auto h-full overflow-x-hidden">
-          {children}
+        <div className="flex h-full flex-col lg:flex-row gap-y-4 lg:gap-6 justify-between">
+          <Navbar />
+          <div className="w-full bg-container rounded-2xl p-4 overflow-y-auto h-full overflow-x-hidden">
+            {children}
+          </div>
+          <Social />
         </div>
-        <Social />
       </body>
     </html>
   );

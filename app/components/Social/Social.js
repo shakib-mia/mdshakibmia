@@ -10,7 +10,7 @@ import {
 const Social = () => {
   return (
     <div className="w-full lg:w-25 bg-container lg:rounded-2xl p-4 h-fit lg:h-full flex items-center">
-      <div className="gap-4 grid grid-cols-5 lg:grid-cols-1 justify-center items-center w-10/12 mx-auto lg:w-full">
+      <div className="gap-4 grid grid-cols-5 lg:grid-cols-1 justify-center items-center w-7/12 mx-auto lg:w-full">
         <a
           href="https://github.com/shakib-mia"
           target="_blank"

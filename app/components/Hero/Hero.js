@@ -42,10 +42,9 @@ const Hero = () => {
           <Button
             href="https://drive.google.com/uc?export=download&id=1VxhSd9Wdi9RxLYFHc6IMcoffDyegOmnO"
             target="_blank"
-            className="inline-flex md:hidden! justify-center gap-2 items-center w-1/2 p-4! overflow-hidden whitespace-nowrap"
+            className="inline-flex lg:hidden! justify-center gap-2 items-center w-1/2 p-4! overflow-hidden whitespace-nowrap"
           >
             {"Download Resume"}
-            <IoMdDownload className="inline-block mb- text-2xl" />
           </Button>
         </div>
       </aside>
