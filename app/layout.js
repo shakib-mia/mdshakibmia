@@ -43,6 +43,9 @@ export const metadata = {
       "Full Stack MERN developer crafting scalable dashboards, SaaS platforms, and AI-powered web applications.",
     images: ["./favicon.ico"],
   },
+  alternates: {
+    canonical: `${process.env.DOMAIN_NAME}`,
+  },
 };
 
 export default function RootLayout({ children }) {
