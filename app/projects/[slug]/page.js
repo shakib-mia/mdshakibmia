@@ -67,7 +67,7 @@ export async function generateMetadata({ params }) {
       title,
       description,
       site: "@TemplateHearth",
-      images: project.otherImages[0],
+      images: project.otherImages ? project.otherImages[0] : project.image,
     },
     alternates: {
       canonical: `${process.env.DOMAIN_NAME}projects/${slug}`,
