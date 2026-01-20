@@ -11,6 +11,7 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+  const [sending, setSending] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -18,6 +19,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setSending(true);
 
     // Example: fetch to /api/contact
     try {
@@ -32,10 +34,17 @@ const Contact = () => {
       if (res.ok) {
         e.target.reset();
         Swal.fire("Message sent successfully!");
+        setSending(false);
 
+        e.target.reset();
         setFormData({ name: "", email: "", subject: "", message: "" });
       } else {
-        Swal.fire(data.error || "Failed to send message");
+        setSending(false);
+        Swal.fire({
+          icon: "error",
+          title: "OOPS",
+          text: data.error || "Failed to send message",
+        });
       }
     } catch (err) {
       Swal.fire("Something went wrong");
@@ -99,8 +108,8 @@ const Contact = () => {
         >
           Send
         </button> */}
-        <Button className="w-full" type="submit">
-          Send
+        <Button disabled={sending} className="w-full" type="submit">
+          Send{sending && "ing"}
         </Button>
       </form>
     </div>

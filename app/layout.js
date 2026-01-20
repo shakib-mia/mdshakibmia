@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`antialiased w-full items-center lg:container lg:mx-auto h-screen lg:px-0 lg:py-6`}
+        className={`antialiased w-full items-center lg:container lg:mx-auto h-screen! lg:px-0 lg:py-6`}
       >
         <div className="flex h-full flex-col lg:flex-row gap-y-4 lg:gap-6 justify-between">
           <Navbar />

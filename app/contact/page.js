@@ -29,7 +29,7 @@ export const metadata = {
     title: "Contact Me - Md. Shakib Mia",
     description:
       "Get in touch with Md. Shakib Mia, a Full Stack Web Developer. Share your project ideas, inquiries, or just say hi through this contact form.",
-    url: `${process.env.DOMAIN_NAME}/contact`,
+    url: `${process.env.DOMAIN_NAME}contact`,
     type: "website",
     siteName: "Md. Shakib Mia Portfolio",
     locale: "en_US",
@@ -46,7 +46,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: `${process.env.DOMAIN_NAME}/contact`,
+    canonical: `${process.env.DOMAIN_NAME}contact`,
   },
 };
 

@@ -6,7 +6,7 @@ body {
 }
 
 html {
-  @apply scroll-smooth! bg-background;
+  @apply scroll-smooth! bg-background selection:bg-primary! selection:text-white!;
 }
 
 .container {

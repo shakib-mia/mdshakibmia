@@ -74,9 +74,9 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className={`bg-container lg:rounded-2xl relative z-99999 transition-all duration-300 whitespace-nowrap w-full ${
+      className={`bg-container lg:rounded-2xl relative transition-all duration-300 whitespace-nowrap w-full ${
         open ? "lg:w-90" : "lg:w-29"
-      } lg:h-full`}
+      }`}
       // onMouseEnter={() => setOpen(true)}
       // onMouseLeave={() => setOpen(false)}
     >
@@ -89,7 +89,7 @@ const Navbar = () => {
           className={`transition-transform ${open ? "rotate-0" : "rotate-180"}`}
         />
       </div>
-      <div className="flex lg:flex-col h-fit lg:h-full justify-between relative p-4 items-center container">
+      <div className="flex lg:flex-col h-fit lg:h-full justify-between relative p-4 items-center">
         {/* Logo */}
         <SafeLink
           href="/"
@@ -104,9 +104,9 @@ const Navbar = () => {
           />
           {/* {open && ( */}
           <aside className={open ? "block" : "lg:hidden"}>
-            <h2 className="lg:hidden font-bold!">Md. Shakib Mia</h2>
-            <h3 className="hidden lg:block font-bold!">Md. Shakib Mia</h3>
-            <p className="text-sm!">Full Stack Developer</p>
+            <h3 className="font-bold!">Md. Shakib Mia</h3>
+            {/* <h3 className="hidden lg:block font-bold!">Md. Shakib Mia</h3> */}
+            <p className="text-xs! lg:text-sm!">Full Stack Developer</p>
           </aside>
           {/* )} */}
         </SafeLink>
@@ -137,8 +137,8 @@ const Navbar = () => {
                       ? "hover:text-white"
                       : "hover:text-primary"
                     : pathname.includes(item.href)
-                    ? "hover:text-white"
-                    : "hover:text-primary"
+                      ? "hover:text-white"
+                      : "hover:text-primary"
                 }`}
                 data-tooltip-id={`tooltip-${item.id}`} // unique ID
                 data-tooltip-content={item.name} // tooltip content

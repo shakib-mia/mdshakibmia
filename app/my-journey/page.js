@@ -34,7 +34,7 @@ export const metadata = {
     title: "My Journey - Md. Shakib Mia",
     description:
       "Discover the journey of Md. Shakib Mia, a Full Stack Web Developer specialized in MERN stack, building scalable and SEO-optimized websites.",
-    url: `${process.env.DOMAIN_NAME}/my-journey`,
+    url: `${process.env.DOMAIN_NAME}my-journey`,
     type: "website",
     siteName: "Md. Shakib Mia Portfolio",
     locale: "en_US",
@@ -51,19 +51,23 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: `${process.env.DOMAIN_NAME}/my-journey`,
+    canonical: `${process.env.DOMAIN_NAME}my-journey`,
   },
 };
 
 const page = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <aside className="lg:sticky top-0 h-full">
+      <aside className="lg:sticky top-0 h-fit">
         <Image
           src={about}
           alt="About Me"
           className="w-full aspect-square object-cover rounded-md"
         />
+        <h1 className="font-bold! mt-4 text-end w-5/6 ml-auto">
+          Grounded by responsibility,{" "}
+          <span className="text-primary/90">pulled forward</span> by ambition.
+        </h1>
       </aside>
       <AboutText />
     </div>

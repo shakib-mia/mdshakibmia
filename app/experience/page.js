@@ -34,7 +34,7 @@ export const metadata = {
     title: "Professional Experience - Md. Shakib Mia",
     description:
       "Explore the professional experience of Md. Shakib Mia, a Full Stack Web Developer specializing in MERN stack, with hands-on experience building production-ready web applications, SaaS platforms, and digital products.",
-    url: `${process.env.DOMAIN_NAME}/experience`,
+    url: `${process.env.DOMAIN_NAME}experience`,
     type: "website",
     siteName: "Md. Shakib Mia Portfolio",
     locale: "en_US",
@@ -50,7 +50,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: `${process.env.DOMAIN_NAME}/experience`,
+    canonical: `${process.env.DOMAIN_NAME}experience`,
   },
 };
 
@@ -115,7 +115,7 @@ const page = () => {
           {experiences.map((exp, index) => (
             <section key={index}>
               <div className="flex items-end gap-3">
-                <h2 className="text-xl font-semibold!">{exp.role}</h2>
+                <h2 className="text-xl font-bold!">{exp.role}</h2>
               </div>
               <p className="text-white mb-2">
                 {exp.company}{" "}

@@ -5,12 +5,10 @@ export async function POST(request) {
     const data = await request.json();
     const { name, email, subject, message } = data;
 
-    console.log({ name, email, subject, message });
-
-    if (!name || !email || !message) {
+    if (!name || !email || !subject || !message) {
       return new Response(
         JSON.stringify({ error: "All fields are required" }),
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -32,7 +30,7 @@ export async function POST(request) {
 
     return new Response(
       JSON.stringify({ success: true, message: "Email sent successfully" }),
-      { status: 200 }
+      { status: 200 },
     );
   } catch (err) {
     console.error(err);

@@ -5,7 +5,10 @@ import { notFound } from "next/navigation";
 import React from "react";
 
 export async function generateStaticParams() {
-  const projects = await projectsCollection.find({}).toArray();
+  const projects = await projectsCollection
+    .find({}, { projection: { slug: 1, _id: 0 } })
+    .toArray();
+
   return projects.map((project) => ({
     slug: project.slug,
   }));
@@ -23,15 +26,10 @@ export async function generateMetadata({ params }) {
   }
 
   const title = `${project.title} – ${project.category}`;
-  const description =
-    project.overview || project.objective || "Full Stack Development Project";
+  const description = project.meta.description;
 
   const keywords = [
-    ...(project.techStack?.frontend || []),
-    ...(project.techStack?.styling || []),
-    ...(project.techStack?.architecture || []),
-    ...(project.techStack?.seo || []),
-    ...(project.techStack?.performance || []),
+    ...(project?.meta.keywords || []),
     "Full Stack Developer Projects",
     "MERN Stack",
     "Next.js",
@@ -50,7 +48,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: `${process.env.DOMAIN_NAME}/projects/${slug}`,
+      url: `${process.env.DOMAIN_NAME}projects/${slug}`,
       type: "website",
       siteName: "Md. Shakib Mia Portfolio",
       locale: "en_US",
@@ -68,11 +66,11 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      site: "@shakib_mia",
-      images: project.image ? [project.image] : undefined,
+      site: "@TemplateHearth",
+      images: project.otherImages[0],
     },
     alternates: {
-      canonical: `${process.env.DOMAIN_NAME}/projects/${slug}`,
+      canonical: `${process.env.DOMAIN_NAME}projects/${slug}`,
     },
   };
 }

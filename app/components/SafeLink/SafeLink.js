@@ -12,7 +12,6 @@ export default function SafeLink({
   ...props
 }) {
   const router = useRouter();
-  console.log(props);
 
   const handleClick = (e) => {
     if (onClick) onClick(e);

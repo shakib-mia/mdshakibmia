@@ -48,7 +48,7 @@ export const metadata = {
     title: "Skills - Md. Shakib Mia",
     description:
       "Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
-    url: `${process.env.DOMAIN_NAME}/skills`,
+    url: `${process.env.DOMAIN_NAME}skills`,
     type: "website",
     siteName: "Md. Shakib Mia Portfolio",
     locale: "en_US",
@@ -70,7 +70,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: `${process.env.DOMAIN_NAME}/skills`,
+    canonical: `${process.env.DOMAIN_NAME}skills`,
   },
 };
 
