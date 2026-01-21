@@ -136,3 +136,7 @@ p {
 #project-gallery .swiper-pagination-bullet {
   @apply bg-primary!;
 }
+
+.react-tooltip {
+  @apply z-99999999999999!;
+}

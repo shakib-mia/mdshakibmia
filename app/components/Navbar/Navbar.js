@@ -31,7 +31,6 @@ const Navbar = () => {
     const updatePos = () => {
       const id = pathname === "/" ? "home" : pathname.split("/")[1];
       const el = document.getElementById(id);
-      console.log({ id, el });
       if (el) setIndicatorPos(el.offsetTop);
     };
 

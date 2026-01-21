@@ -1,6 +1,7 @@
 import React from "react";
 import laptop from "@/app/assets/laptop.jpg";
 import Image from "next/image";
+import ImageClient from "../components/ImageClient/ImageClient";
 
 export const metadata = {
   metadataBase: new URL(process.env.DOMAIN_NAME),
@@ -106,10 +107,11 @@ const page = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8 items-center">
-        <Image
+        <ImageClient
           src={laptop}
           className="h-fit rounded-lg aspect-video lg:aspect-square object-center object-cover"
           alt="Laptop"
+          // onLoadingComplete={(e) => console.log(e)}
         />
         <div className="space-y-4">
           {experiences.map((exp, index) => (
