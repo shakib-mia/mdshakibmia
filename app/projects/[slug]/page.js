@@ -1,5 +1,6 @@
 import Button from "@/app/components/Button/Button";
 import GallerySlider from "@/app/components/GallerySlider/GallerySlider";
+import PrevAndNextProject from "@/app/components/PrevAndNextProject/PrevAndNextProject";
 import { projectsCollection } from "@/app/lib/mongodb";
 import { notFound } from "next/navigation";
 import React from "react";
@@ -86,6 +87,8 @@ const page = async ({ params }) => {
   return (
     <main className="space-y-8">
       {/* <aside className="lg:sticky top-0 h-fit"> */}
+      <PrevAndNextProject slug={slug} />
+
       <section>
         <h1 className="font-bold!">
           {project?.title} - {project?.category}

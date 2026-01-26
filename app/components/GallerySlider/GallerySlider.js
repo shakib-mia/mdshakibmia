@@ -28,7 +28,7 @@ const GallerySlider = ({ images }) => {
             alt={`Selected Image ${selectedImage + 1}`}
             width={800}
             height={600}
-            className="object-contain mx-auto lg:w-1/2 shadow-xl rounded-lg"
+            className="object-contain mx-auto lg:w-1/2 shadow-xl shadow-black rounded-lg"
             onClick={(e) => e.stopPropagation()}
           />
           <div

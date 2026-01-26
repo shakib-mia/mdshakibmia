@@ -1,29 +1,18 @@
 @import "tailwindcss";
 @import "sweetalert2/dist/sweetalert2.min.css";
 
-body {
-  @apply text-white!;
-}
-
-html {
-  @apply scroll-smooth! bg-background selection:bg-primary! selection:text-white!;
-}
-
-.container {
-  @apply mx-auto px-4!;
-}
-
 @theme {
   /* Colors */
-  --color-primary: #0368ff;
-  --color-primary-light: #5899ff;
+  --color-primary: #7456ff;
+  --color-primary-light: #8368ff;
   --color-primary-disabled: #5899ff8c;
   --color-secondary: #ff3e95;
   --color-accent: #5899ff;
-  --color-background: #221c3e;
+  --color-background: #0c0c0c;
   --color-white: #f2f0ff;
   --color-white-2: #b5b3bc;
-  --color-container: #0f0920;
+  --color-container: #131313;
+  --color-ash-lavender: #f5f2ff;
 
   /* Shadows */
   --shadow-low: 2px 4px 6px rgba(0, 0, 0, 0.18);
@@ -57,6 +46,18 @@ html {
 
   --font-family-heading: "Raleway", sans-serif;
   --font-family-body: "Inter", sans-serif;
+}
+
+body {
+  @apply text-ash-lavender!;
+}
+
+html {
+  @apply scroll-smooth! bg-background selection:bg-primary! selection:text-ash-lavender!;
+}
+
+.container {
+  @apply mx-auto px-4!;
 }
 
 /* Apply typography to tags */

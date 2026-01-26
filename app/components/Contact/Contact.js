@@ -64,7 +64,7 @@ const Contact = () => {
 
       <form
         onSubmit={handleSubmit}
-        className="w-full lg:w-1/2 shadow-[0_0_20px_8px] mx-auto p-6 shadow-primary/20 mt-12 space-y-4 rounded-lg"
+        className="w-full lg:w-1/2 shadow-[0_0_20px_8px] mx-auto p-6 shadow-background/50 mt-12 space-y-4 rounded-lg"
       >
         <Input
           label="Name"

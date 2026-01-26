@@ -7,10 +7,11 @@ import Button from "../Button/Button";
 const Projects = async ({ pathname }) => {
   const projects = await projectsCollection
     .find({})
+    .sort({ order: 1 })
     .limit(pathname === "/" ? 3 : 0)
     .toArray();
   return (
-    <section className={pathname === "/" && "mt-12"}>
+    <section className={pathname === "/" ? "mt-12" : ""}>
       {pathname === "/" ? (
         <h2 className="font-bold! mb-2 text-center">Featured Works</h2>
       ) : (

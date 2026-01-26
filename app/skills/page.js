@@ -184,7 +184,7 @@ const page = () => {
                   key={idx}
                 >
                   {item.icon}
-                  <h4 className="mt-2">{item.name}</h4>
+                  <h3 className="mt-2">{item.name}</h3>
                 </li>
               ))}
             </ul>
