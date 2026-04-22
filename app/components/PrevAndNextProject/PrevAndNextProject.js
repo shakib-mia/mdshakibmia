@@ -36,7 +36,7 @@ const PrevAndNextProject = async ({ slug }) => {
           >
             <MdOutlineKeyboardDoubleArrowLeft className="text-6xl" />
             <aside>
-              <h3>{prev[0].title}</h3>
+              <h3 className="font-bold!">{prev[0].title}</h3>
               <h4>{prev[0].category}</h4>
             </aside>
           </Link>
@@ -51,7 +51,7 @@ const PrevAndNextProject = async ({ slug }) => {
             href={`/projects/${next[0].slug}`}
           >
             <aside className="text-right">
-              <h3>{next[0].title}</h3>
+              <h3 className="font-bold!">{next[0].title}</h3>
               <h4>{next[0].category}</h4>
             </aside>
             <MdOutlineKeyboardDoubleArrowRight className="text-6xl" />
