@@ -28,7 +28,7 @@ export const metadata = {
 		siteName: "Md. Shakib Mia Portfolio",
 		images: [
 			{
-				url: "./favicon.ico",
+				url: "https://mdshakibmia.vercel.app/favicon.ico",
 				width: 1200,
 				height: 630,
 				alt: "Md. Shakib Mia – Full Stack Web Developer",
@@ -41,7 +41,7 @@ export const metadata = {
 		title: "Md. Shakib Mia | Full Stack MERN Developer",
 		description:
 			"Full Stack MERN developer crafting scalable dashboards, SaaS platforms, and AI-powered web applications.",
-		images: ["./favicon.ico"],
+		images: ["https://mdshakibmia.vercel.app/favicon.ico"],
 	},
 	alternates: {
 		canonical: `${process.env.DOMAIN_NAME}`,
