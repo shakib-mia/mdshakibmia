@@ -1,5 +1,6 @@
 import React from "react";
-import { FaReact, FaNodeJs, FaDatabase, FaPython } from "react-icons/fa";
+import { BsOpenai } from "react-icons/bs";
+import { FaReact, FaNodeJs, FaDatabase, FaCreditCard } from "react-icons/fa";
 import {
 	SiExpress,
 	SiJavascript,
@@ -7,14 +8,23 @@ import {
 	SiMongodb,
 	SiNextdotjs,
 	SiOllama,
-	SiOpenai,
 	SiRedux,
 	SiTailwindcss,
 	SiTypescript,
 	SiVercel,
+	SiTanstack,
+	SiAxios,
+	SiZod,
+	SiPostgresql,
+	SiPrisma,
+	SiGit,
+	SiLinux,
+	SiPm2,
+	SiNginx,
+	SiReacthookform,
 } from "react-icons/si";
-import { TbBrandFirebase, TbBrandOauth } from "react-icons/tb";
 
+import { TbBrandFirebase, TbBrandOauth } from "react-icons/tb";
 export const metadata = {
 	metadataBase: new URL(process.env.DOMAIN_NAME),
 	title: {
@@ -22,60 +32,63 @@ export const metadata = {
 		template: "%s | Md. Shakib Mia",
 	},
 	description:
-		"Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
-
+		"Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, PostgreSQL, Prisma, MongoDB, TailwindCSS, Redux, REST APIs, authentication, payment workflows, AI integrations, and production deployment.",
 	keywords: [
 		"Full Stack Developer skills",
 		"React.js",
 		"Next.js",
 		"Node.js",
 		"Express.js",
+		"TypeScript",
+		"PostgreSQL",
+		"Prisma ORM",
 		"MongoDB",
-		"Firebase Auth",
 		"TailwindCSS",
 		"Redux",
+		"React Hook Form",
+		"TanStack Query",
+		"Axios",
+		"Zod",
+		"REST API",
+		"JWT",
+		"Firebase Auth",
+		"Google OAuth",
 		"OpenAI API",
 		"Ollama",
-		"Web Development Portfolio",
+		"Git",
+		"Linux",
+		"PM2",
+		"Nginx",
 		"Deployment",
 		"Payment Flows",
+		"Web Development Portfolio",
 	],
-
-	robots: {
-		index: true,
-		follow: true,
-	},
-
+	robots: { index: true, follow: true },
 	openGraph: {
 		title: "Skills - Md. Shakib Mia",
 		description:
-			"Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
+			"Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, PostgreSQL, Prisma, REST APIs, authentication, business workflows, AI integrations, and production deployment.",
 		url: `${process.env.DOMAIN_NAME}skills`,
 		type: "website",
 		siteName: "Md. Shakib Mia Portfolio",
 		locale: "en_US",
 		images: [
 			{
-				url: `${process.env.DOMAIN_NAME}skills-og.png`, // skills page hero/preview image
+				url: `${process.env.DOMAIN_NAME}skills-og.png`,
 				width: 1200,
 				height: 630,
 			},
 		],
 	},
-
 	twitter: {
 		card: "summary_large_image",
 		title: "Skills - Md. Shakib Mia",
 		description:
-			"Showcasing my skills as a Full Stack Developer: React, Next.js, Node.js, Express, MongoDB, Firebase, TailwindCSS, Redux, OpenAI & Ollama API integrations, and deployment workflows.",
+			"Full Stack Developer skilled in React, Next.js, Node.js, PostgreSQL, Prisma, REST APIs, authentication, business workflows, AI integrations, and production deployment.",
 		site: "@shakib_mia",
 	},
-
-	alternates: {
-		canonical: `${process.env.DOMAIN_NAME}skills`,
-	},
+	alternates: { canonical: `${process.env.DOMAIN_NAME}skills` },
 };
-
 const page = () => {
 	const skills = [
 		{
@@ -106,7 +119,9 @@ const page = () => {
 				},
 				{
 					name: "Next.js",
-					icon: <SiNextdotjs className="w-10 h-10 transition" />,
+					icon: (
+						<SiNextdotjs className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 				{
 					name: "TailwindCSS",
@@ -120,10 +135,22 @@ const page = () => {
 						<SiRedux className="text-purple-700 group-hover:text-white w-10 h-10 transition" />
 					),
 				},
+				{
+					name: "React Hook Form",
+					icon: (
+						<SiReacthookform className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "TanStack Query",
+					icon: (
+						<SiTanstack className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
 			],
 		},
 		{
-			category: "Backend & Auth",
+			category: "Backend & APIs",
 			items: [
 				{
 					name: "Node.js",
@@ -133,12 +160,60 @@ const page = () => {
 				},
 				{
 					name: "Express.js",
-					icon: <SiExpress className="w-10 h-10 transition" />,
+					icon: (
+						<SiExpress className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "REST APIs",
+					icon: (
+						<FaDatabase className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "Axios",
+					icon: (
+						<SiAxios className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "Zod",
+					icon: (
+						<SiZod className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+			],
+		},
+		{
+			category: "Database & ORM",
+			items: [
+				{
+					name: "PostgreSQL",
+					icon: (
+						<SiPostgresql className="text-sky-500 w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "Prisma ORM",
+					icon: (
+						<SiPrisma className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 				{
 					name: "MongoDB",
 					icon: (
 						<SiMongodb className="text-green-500 w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+			],
+		},
+		{
+			category: "Authentication & Security",
+			items: [
+				{
+					name: "JWT",
+					icon: (
+						<SiJsonwebtokens className="w-10 h-10 transition group-hover:text-white" />
 					),
 				},
 				{
@@ -149,11 +224,9 @@ const page = () => {
 				},
 				{
 					name: "Google OAuth",
-					icon: <TbBrandOauth className="w-10 h-10 transition" />,
-				},
-				{
-					name: "JWT",
-					icon: <SiJsonwebtokens className="w-10 h-10 transition" />,
+					icon: (
+						<TbBrandOauth className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 			],
 		},
@@ -161,35 +234,62 @@ const page = () => {
 			category: "AI Integration",
 			items: [
 				{
-					name: "Ollama",
-					icon: <SiOllama className="w-10 h-10 transition" />,
+					name: "OpenAI API",
+					icon: (
+						<BsOpenai className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 				{
-					name: "OpenAI API Workflows",
-					icon: <SiOpenai className="w-10 h-10 transition" />,
+					name: "Ollama",
+					icon: (
+						<SiOllama className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "AI Workflows",
+					icon: (
+						<BsOpenai className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 			],
 		},
+
 		{
-			category: "Other",
+			category: "DevOps & Production",
 			items: [
-				// { name: "REST APIs", icon: <SiRest className="w-10 h-10 transition" /> },
 				{
-					name: "File Upload Systems",
-					icon: <FaDatabase className="w-10 h-10 transition" />,
+					name: "Git",
+					icon: (
+						<SiGit className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 				{
-					name: "Payment Flows",
-					icon: <FaPython className="w-10 h-10 transition" />,
+					name: "Linux",
+					icon: (
+						<SiLinux className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 				{
-					name: "Deployment",
-					icon: <SiVercel className="w-10 h-10 transition" />,
+					name: "PM2",
+					icon: (
+						<SiPm2 className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "Nginx",
+					icon: (
+						<SiNginx className="w-10 h-10 transition group-hover:text-white" />
+					),
+				},
+				{
+					name: "Vercel",
+					icon: (
+						<SiVercel className="w-10 h-10 transition group-hover:text-white" />
+					),
 				},
 			],
 		},
 	];
-
 	return (
 		<div>
 			<h1 className="font-bold! text-center mb-8">My Skills</h1>
@@ -216,5 +316,4 @@ const page = () => {
 		</div>
 	);
 };
-
 export default page;
