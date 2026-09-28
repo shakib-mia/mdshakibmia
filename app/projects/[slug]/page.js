@@ -150,21 +150,21 @@ const page = async ({ params }) => {
 				<h2 className="font-bold!">Tech Stack</h2>
 
 				<div className="ml-8 space-y-4">
-					{Object.entries(project.techStack || {}).map(
-						([category, technologies]) => (
+					{Object.entries(project.techStack || {})
+						.filter(([, technologies]) => technologies?.length > 0)
+						.map(([category, technologies]) => (
 							<div key={category}>
 								<h3 className="font-bold! capitalize">
 									{category}:
 								</h3>
 
 								<ul className="list-disc pl-8">
-									{technologies?.map((technology, index) => (
+									{technologies.map((technology, index) => (
 										<li key={index}>{technology}</li>
 									))}
 								</ul>
 							</div>
-						),
-					)}
+						))}
 				</div>
 			</section>
 
