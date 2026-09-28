@@ -1,5 +1,5 @@
 // app/lib/sitemap.js
-import { projectsCollection } from "../../lib/mongodb";
+import { projectsCollection } from "./lib/mongodb";
 
 export default async function sitemap() {
 	try {
