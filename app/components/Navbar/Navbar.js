@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button/Button";
 import { usePathname } from "next/navigation";
 import SafeLink from "../SafeLink/SafeLink";
-import portfolio from "@/app/assets/portrait.jpg";
+import portfolio from "../../assets/portrait.jpg";
 import {
 	MdOutlineHome,
 	MdOutlinePerson,

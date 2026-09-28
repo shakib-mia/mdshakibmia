@@ -1,509 +1,601 @@
 [
-  {
-    "id": "template-hearth",
-    "slug": "template-hearth-website-template-store",
-    "image": "https://i.ibb.co/Pz1B1J9D/templatehearth.png",
-    "livePreview": "https://templatehearth.vercel.app/",
-    "otherImages": [
-      "https://i.ibb.co/ynpw0cnz/templatehearth1.png",
-      "https://i.ibb.co/KpwZpXB7/templatehearth2.png"
-    ],
-    "title": "Template Hearth",
-    "category": "Website Template Marketplace",
-    "projectSummary": "Template Hearth is a modern website template marketplace offering clean, production-ready, and SEO-optimized templates for startups, creators, and small businesses.",
-    "overview": "Template Hearth is a professional website template store built to deliver high-quality, reusable, and scalable website templates. The platform focuses on performance, SEO, and a minimalist design system to ensure a premium user experience without unnecessary complexity.",
-    "objective": "The goal was to build a fast, SEO-friendly, and scalable platform where users can easily discover and use production-ready website templates designed for real-world business needs.",
-    "roleAndResponsibilities": [
-      "Product planning and system architecture",
-      "Design system creation",
-      "Frontend development using Next.js",
-      "SEO optimization and performance tuning",
-      "Reusable component library development",
-      "Deployment and production readiness"
-    ],
-    "solutionStrategy": "The platform was built with Next.js to ensure fast rendering and smooth navigation. A custom component-driven design system was developed from scratch to maintain consistency, scalability, and long-term maintainability without relying on paid UI kits.",
-    "keyFeatures": [
-      "Fast and SEO-optimized page rendering",
-      "Fully responsive layouts across all devices",
-      "Consistent design system with reusable UI components",
-      "Clean navigation and intuitive browsing experience",
-      "Search-engine-friendly structure and metadata"
-    ],
-    "techStack": {
-      "frontend": ["Next.js", "React"],
-      "styling": ["Tailwind CSS"],
-      "architecture": ["Component-based design system"],
-      "seo": ["Semantic HTML", "Metadata optimization"],
-      "tools": ["Free and open-source tools"]
-    },
-    "performanceAndOptimization": "All pages were optimized for speed, SEO, and scalability. Best practices such as clean markup, proper heading hierarchy, and efficient routing were applied to improve discoverability and performance.",
-    "challengesAndLearnings": "The biggest challenge was building a premium-quality product with no budget. By designing a custom UI component library from scratch, I achieved a professional look while strengthening my skills in scalable UI architecture and design consistency.",
-    "finalOutcome": "Template Hearth showcases my ability to independently design, build, and ship a full-scale web product with strong performance, clean architecture, and attention to detail.",
-    "idealUseCases": [
-      "Startups looking for ready-to-use website templates",
-      "Creators and developers seeking reusable designs",
-      "Small businesses needing SEO-optimized websites",
-      "Digital product and template marketplaces"
-    ],
-    "meta": {
-      "title": "Template Hearth – Website Template Marketplace Built with Next.js",
-      "description": "Template Hearth is a high-performance website template marketplace built with Next.js, offering SEO-optimized, production-ready templates for startups, creators, and small businesses.",
-      "keywords": [
-        "website template marketplace",
-        "Next.js template store",
-        "SEO optimized website templates",
-        "frontend template marketplace",
-        "React templates",
-        "Tailwind CSS templates",
-        "web templates for startups"
-      ],
-      "og": {
-        "title": "Template Hearth – Modern Website Template Marketplace",
-        "description": "Discover clean, scalable, and SEO-friendly website templates built with Next.js for startups and small businesses.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Template Hearth – Website Template Store",
-        "description": "A modern template marketplace offering production-ready, SEO-optimized website templates built with Next.js."
-      }
-    }
-  },
-  {
-    "id": "adztronaut",
-    "slug": "adztronaut-modern-advertising-agency-website",
-    "image": "https://i.ibb.co/27pFBn57/adztronaut.png",
-    "livePreview": "adztronaut.com",
-    "otherImages": [
-      "https://i.ibb.co/JW7SLN88/adztronaut1.png",
-      "https://i.ibb.co/B5bxn0s5/adztronaut2.png"
-    ],
-    "title": "Adztronaut",
-    "category": "Advertising Agency Website",
-    "projectSummary": "Adztronaut is a modern, high-performance advertising agency website designed to deliver a clean, engaging, and conversion-focused user experience.",
-    "overview": "Adztronaut is a modern advertising agency website built to showcase services, credibility, and portfolio through strategic storytelling and a visually engaging interface. The platform emphasizes performance, responsiveness, and SEO while maintaining a clean and professional design language.",
-    "objective": "The goal was to transform a provided UI/UX design into a fully functional, pixel-perfect, and production-ready website that delivers fast performance, smooth navigation, and strong conversion flow.",
-    "roleAndResponsibilities": [
-      "Frontend development from provided UI/UX design",
-      "Pixel-perfect layout implementation",
-      "Reusable component architecture",
-      "Animation and interaction handling",
-      "Performance optimization and SEO implementation",
-      "Responsive design across all devices"
-    ],
-    "solutionStrategy": "The website was developed using a component-based frontend architecture to ensure scalability and maintainability. Each section was carefully structured to match the original design while improving performance, accessibility, and SEO. Reusable components were created to maintain consistency across pages and reduce redundancy.",
-    "keyFeatures": [
-      "Multi-slide hero section with smooth transitions",
-      "Structured service breakdown for clarity",
-      "Credibility-focused About page layout",
-      "Detailed case study sections",
-      "Testimonial-driven social proof components",
-      "Fully responsive and mobile-optimized layouts"
-    ],
-    "techStack": {
-      "frontend": ["React", "Next.js"],
-      "styling": ["Tailwind CSS"],
-      "architecture": ["Component-based structure"],
-      "seo": ["Semantic HTML", "Optimized metadata"],
-      "performance": ["Optimized animations", "Minimal layout shifts"]
-    },
-    "performanceAndOptimization": "The website was optimized for fast load times, smooth animations, and stable layouts. Best practices were applied to reduce layout shifts, improve responsiveness, and ensure SEO-friendly markup for better search engine visibility.",
-    "challengesAndLearnings": "One of the key challenges was accurately translating the provided UI/UX design into a live website while maintaining performance and responsiveness. This project strengthened my ability to convert static designs into scalable, production-ready front-end systems with clean code standards.",
-    "finalOutcome": "Adztronaut demonstrates my capability to turn detailed UI designs into polished, high-performing websites. The project reflects strong attention to detail, frontend architecture skills, and a deep understanding of performance-focused, SEO-friendly development.",
-    "idealUseCases": [
-      "Advertising and marketing agencies",
-      "Creative studios and branding agencies",
-      "Businesses needing a conversion-focused website",
-      "Portfolio-driven service companies"
-    ],
-    "meta": {
-      "title": "Adztronaut – Modern Advertising Agency Website",
-      "description": "Adztronaut is a high-performance advertising agency website built with a modern frontend architecture, focusing on SEO, responsiveness, and conversion-driven design.",
-      "keywords": [
-        "advertising agency website",
-        "modern agency website",
-        "Next.js agency website",
-        "frontend development project",
-        "SEO optimized business website",
-        "conversion focused web design"
-      ],
-      "og": {
-        "title": "Adztronaut – High-Performance Advertising Agency Website",
-        "description": "A modern, conversion-focused advertising agency website built with clean frontend architecture and SEO best practices.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Adztronaut – Advertising Agency Website",
-        "description": "A modern advertising agency website focused on performance, clean UX, and SEO-driven frontend development."
-      }
-    }
-  },
+	{
+		"id": "template-hearth",
+		"slug": "template-hearth-website-template-store",
+		"image": "https://i.ibb.co/Pz1B1J9D/templatehearth.png",
+		"livePreview": "https://templatehearth.vercel.app/",
+		"otherImages": [
+			"https://i.ibb.co/ynpw0cnz/templatehearth1.png",
+			"https://i.ibb.co/KpwZpXB7/templatehearth2.png"
+		],
+		"title": "Template Hearth",
+		"category": "Website Template Marketplace",
+		"projectSummary": "Template Hearth is a modern website template marketplace offering clean, production-ready, and SEO-optimized templates for startups, creators, and small businesses.",
+		"overview": "Template Hearth is a professional website template store built to deliver high-quality, reusable, and scalable website templates. The platform focuses on performance, SEO, and a minimalist design system to ensure a premium user experience without unnecessary complexity.",
+		"objective": "The goal was to build a fast, SEO-friendly, and scalable platform where users can easily discover and use production-ready website templates designed for real-world business needs.",
+		"roleAndResponsibilities": [
+			"Product planning and system architecture",
+			"Design system creation",
+			"Frontend development using Next.js",
+			"SEO optimization and performance tuning",
+			"Reusable component library development",
+			"Deployment and production readiness"
+		],
+		"solutionStrategy": "The platform was built with Next.js to ensure fast rendering and smooth navigation. A custom component-driven design system was developed from scratch to maintain consistency, scalability, and long-term maintainability without relying on paid UI kits.",
+		"keyFeatures": [
+			"Fast and SEO-optimized page rendering",
+			"Fully responsive layouts across all devices",
+			"Consistent design system with reusable UI components",
+			"Clean navigation and intuitive browsing experience",
+			"Search-engine-friendly structure and metadata"
+		],
+		"techStack": {
+			"frontend": ["Next.js", "React"],
+			"styling": ["Tailwind CSS"],
+			"architecture": ["Component-based design system"],
+			"seo": ["Semantic HTML", "Metadata optimization"],
+			"tools": ["Free and open-source tools"]
+		},
+		"performanceAndOptimization": "All pages were optimized for speed, SEO, and scalability. Best practices such as clean markup, proper heading hierarchy, and efficient routing were applied to improve discoverability and performance.",
+		"challengesAndLearnings": "The biggest challenge was building a premium-quality product with no budget. By designing a custom UI component library from scratch, I achieved a professional look while strengthening my skills in scalable UI architecture and design consistency.",
+		"finalOutcome": "Template Hearth showcases my ability to independently design, build, and ship a full-scale web product with strong performance, clean architecture, and attention to detail.",
+		"idealUseCases": [
+			"Startups looking for ready-to-use website templates",
+			"Creators and developers seeking reusable designs",
+			"Small businesses needing SEO-optimized websites",
+			"Digital product and template marketplaces"
+		],
+		"meta": {
+			"title": "Template Hearth – Website Template Marketplace Built with Next.js",
+			"description": "Template Hearth is a high-performance website template marketplace built with Next.js, offering SEO-optimized, production-ready templates for startups, creators, and small businesses.",
+			"keywords": [
+				"website template marketplace",
+				"Next.js template store",
+				"SEO optimized website templates",
+				"frontend template marketplace",
+				"React templates",
+				"Tailwind CSS templates",
+				"web templates for startups"
+			],
+			"og": {
+				"title": "Template Hearth – Modern Website Template Marketplace",
+				"description": "Discover clean, scalable, and SEO-friendly website templates built with Next.js for startups and small businesses.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "Template Hearth – Website Template Store",
+				"description": "A modern template marketplace offering production-ready, SEO-optimized website templates built with Next.js."
+			}
+		}
+	},
+	{
+		"id": "adztronaut",
+		"slug": "adztronaut-modern-advertising-agency-website",
+		"image": "https://i.ibb.co/27pFBn57/adztronaut.png",
+		"livePreview": "adztronaut.com",
+		"otherImages": [
+			"https://i.ibb.co/JW7SLN88/adztronaut1.png",
+			"https://i.ibb.co/B5bxn0s5/adztronaut2.png"
+		],
+		"title": "Adztronaut",
+		"category": "Advertising Agency Website",
+		"projectSummary": "Adztronaut is a modern, high-performance advertising agency website designed to deliver a clean, engaging, and conversion-focused user experience.",
+		"overview": "Adztronaut is a modern advertising agency website built to showcase services, credibility, and portfolio through strategic storytelling and a visually engaging interface. The platform emphasizes performance, responsiveness, and SEO while maintaining a clean and professional design language.",
+		"objective": "The goal was to transform a provided UI/UX design into a fully functional, pixel-perfect, and production-ready website that delivers fast performance, smooth navigation, and strong conversion flow.",
+		"roleAndResponsibilities": [
+			"Frontend development from provided UI/UX design",
+			"Pixel-perfect layout implementation",
+			"Reusable component architecture",
+			"Animation and interaction handling",
+			"Performance optimization and SEO implementation",
+			"Responsive design across all devices"
+		],
+		"solutionStrategy": "The website was developed using a component-based frontend architecture to ensure scalability and maintainability. Each section was carefully structured to match the original design while improving performance, accessibility, and SEO. Reusable components were created to maintain consistency across pages and reduce redundancy.",
+		"keyFeatures": [
+			"Multi-slide hero section with smooth transitions",
+			"Structured service breakdown for clarity",
+			"Credibility-focused About page layout",
+			"Detailed case study sections",
+			"Testimonial-driven social proof components",
+			"Fully responsive and mobile-optimized layouts"
+		],
+		"techStack": {
+			"frontend": ["React", "Next.js"],
+			"styling": ["Tailwind CSS"],
+			"architecture": ["Component-based structure"],
+			"seo": ["Semantic HTML", "Optimized metadata"],
+			"performance": ["Optimized animations", "Minimal layout shifts"]
+		},
+		"performanceAndOptimization": "The website was optimized for fast load times, smooth animations, and stable layouts. Best practices were applied to reduce layout shifts, improve responsiveness, and ensure SEO-friendly markup for better search engine visibility.",
+		"challengesAndLearnings": "One of the key challenges was accurately translating the provided UI/UX design into a live website while maintaining performance and responsiveness. This project strengthened my ability to convert static designs into scalable, production-ready front-end systems with clean code standards.",
+		"finalOutcome": "Adztronaut demonstrates my capability to turn detailed UI designs into polished, high-performing websites. The project reflects strong attention to detail, frontend architecture skills, and a deep understanding of performance-focused, SEO-friendly development.",
+		"idealUseCases": [
+			"Advertising and marketing agencies",
+			"Creative studios and branding agencies",
+			"Businesses needing a conversion-focused website",
+			"Portfolio-driven service companies"
+		],
+		"meta": {
+			"title": "Adztronaut – Modern Advertising Agency Website",
+			"description": "Adztronaut is a high-performance advertising agency website built with a modern frontend architecture, focusing on SEO, responsiveness, and conversion-driven design.",
+			"keywords": [
+				"advertising agency website",
+				"modern agency website",
+				"Next.js agency website",
+				"frontend development project",
+				"SEO optimized business website",
+				"conversion focused web design"
+			],
+			"og": {
+				"title": "Adztronaut – High-Performance Advertising Agency Website",
+				"description": "A modern, conversion-focused advertising agency website built with clean frontend architecture and SEO best practices.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "Adztronaut – Advertising Agency Website",
+				"description": "A modern advertising agency website focused on performance, clean UX, and SEO-driven frontend development."
+			}
+		}
+	},
 
-  {
-    "id": "geetbazaar",
-    "slug": "geetbazaar-music-distribution-platform",
-    "livePreview": "https://geetbazaar-landing.vercel.app/",
-    "image": "https://i.ibb.co/cKcsy0g6/Geet-Bazaar.png",
-    "title": "GeetBazaar",
-    "category": "Music Distribution Platform",
-    "projectSummary": "GeetBazaar is a modern music distribution platform designed to help artists publish, manage, and monetize their music across multiple digital platforms.",
-    "overview": "GeetBazaar is a full-scale music distribution web platform built to streamline the process of song uploads, metadata management, and release tracking for independent artists and labels. The platform focuses on usability, scalability, and performance while providing a clean and professional dashboard-driven experience.",
-    "objective": "The objective was to build a scalable and user-friendly music distribution system that allows artists to manage releases, track submissions, and interact with the platform through a secure and well-structured workflow.",
-    "roleAndResponsibilities": [
-      "Full-stack development and system architecture",
-      "Dashboard and form-based workflow implementation",
-      "Song upload and metadata handling",
-      "Admin and role-based access management",
-      "Performance optimization and SEO-friendly frontend",
-      "Ongoing maintenance and feature improvements"
-    ],
-    "solutionStrategy": "A modular, component-driven architecture was implemented to handle complex workflows such as multi-song uploads, metadata validation, and admin review processes. The system was designed to be scalable, allowing future expansion for analytics, revenue tracking, and additional distribution features.",
-    "keyFeatures": [
-      "Artist dashboard for managing music releases",
-      "Multi-song upload system with structured metadata",
-      "Admin panel for release review and management",
-      "Role-based access control for employees and admins",
-      "Responsive and dashboard-friendly UI",
-      "Clean navigation for complex workflows"
-    ],
-    "techStack": {
-      "frontend": ["React", "Next.js"],
-      "backend": ["Node.js", "Express"],
-      "database": ["MongoDB"],
-      "architecture": ["MERN stack", "Role-based system design"],
-      "seo": ["SEO-optimized frontend structure"]
-    },
-    "performanceAndOptimization": "The platform was optimized for handling large forms, file uploads, and dashboard interactions efficiently. Clean state management, optimized API calls, and responsive layouts ensure smooth performance across devices.",
-    "challengesAndLearnings": "Managing complex form data, file uploads, and role-based workflows was a key challenge. This project strengthened my experience in building scalable MERN-based systems with real-world business logic and long-term maintainability.",
-    "finalOutcome": "GeetBazaar demonstrates my ability to work on production-level platforms involving complex workflows, dashboards, and role-based systems. The project highlights strong full-stack skills, problem-solving ability, and attention to scalability.",
-    "idealUseCases": [
-      "Independent music distribution platforms",
-      "Artist and label management systems",
-      "Digital content publishing platforms",
-      "Dashboard-driven web applications"
-    ],
-    "meta": {
-      "title": "GeetBazaar – Music Distribution Platform for Artists",
-      "description": "GeetBazaar is a scalable music distribution platform built with the MERN stack, enabling artists to upload, manage, and distribute their music through a modern dashboard.",
-      "keywords": [
-        "music distribution platform",
-        "artist dashboard system",
-        "MERN stack web application",
-        "music upload platform",
-        "admin dashboard web app",
-        "digital content management system"
-      ],
-      "og": {
-        "title": "GeetBazaar – Modern Music Distribution Platform",
-        "description": "A full-scale music distribution web platform built with modern MERN architecture and dashboard-driven workflows.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "GeetBazaar – Music Distribution Platform",
-        "description": "A modern MERN-based music distribution platform designed for artists, labels, and scalable content management."
-      }
-    }
-  },
-  {
-    "id": "growcial-bull",
-    "slug": "growcial-bull-modern-crypto-trading-landing-page",
-    "livePreview": "https://growcialbull.com/",
-    "image": "https://i.ibb.co/x8fkmW1r/Growcial-Bull.png",
-    "title": "Growcial Bull",
-    "category": "Crypto & Trading Academy Website",
-    "projectSummary": "Growcial Bull is a modern, multi-page website built for a trading academy to showcase courses, blogs, and educational resources with a professional and SEO-optimized structure.",
-    "overview": "Growcial Bull is a modern, responsive website developed for a trading academy that educates students and aspiring traders in real stock market concepts. The platform presents courses, educational blogs, milestones, and resources in a clean and engaging format, focusing on credibility, clarity, and accessibility.",
-    "objective": "The objective was to build a multi-page, mobile-first website that effectively communicates the academy’s mission, educational offerings, and expertise while ensuring strong SEO performance and smooth user experience.",
-    "roleAndResponsibilities": [
-      "Frontend development and layout structuring",
-      "Responsive UI implementation",
-      "SEO-friendly page architecture",
-      "Dynamic blog section development",
-      "Contact and newsletter form integration",
-      "Component reusability and clean code practices"
-    ],
-    "solutionStrategy": "A component-based frontend architecture was used to ensure scalability and consistency across pages. The layout was designed with a mobile-first approach, clear call-to-actions, and structured content sections to guide users through courses, resources, and community engagement.",
-    "keyFeatures": [
-      "Multi-page website with clear information hierarchy",
-      "Hero section highlighting academy values and vision",
-      "Dynamic blog system for trading strategies and insights",
-      "Accordion-based FAQ section for common questions",
-      "Newsletter subscription integration",
-      "Contact form with callback request option",
-      "Smooth navigation with conversion-focused CTAs"
-    ],
-    "techStack": {
-      "frontend": ["React"],
-      "styling": ["Tailwind CSS"],
-      "architecture": ["Component-based structure"],
-      "seo": ["SEO-optimized page structure", "Semantic HTML"]
-    },
-    "performanceAndOptimization": "The website was optimized for responsiveness, fast loading, and SEO visibility. Clean markup, structured content, and optimized layouts ensure a smooth experience across all devices and improved discoverability in search engines.",
-    "challengesAndLearnings": "Designing a content-heavy educational website required careful information structuring to maintain clarity without overwhelming users. This project strengthened my ability to balance educational content with usability and conversion-focused design.",
-    "finalOutcome": "The completed website provided Growcial Bull with a strong digital presence, helping the brand build credibility, attract new students, and effectively showcase expertise in equity and derivatives trading education.",
-    "idealUseCases": [
-      "Trading and crypto education platforms",
-      "Online academies and coaching institutes",
-      "Financial education websites",
-      "Content-driven educational businesses"
-    ],
-    "meta": {
-      "title": "Growcial Bull – Modern Crypto & Trading Academy Website",
-      "description": "Growcial Bull is a modern, SEO-optimized trading academy website built with React and Tailwind CSS to showcase courses, blogs, and educational resources.",
-      "keywords": [
-        "crypto trading website",
-        "trading academy website",
-        "financial education platform",
-        "React landing page",
-        "SEO optimized educational website",
-        "Tailwind CSS website"
-      ],
-      "og": {
-        "title": "Growcial Bull – Crypto & Trading Academy Website",
-        "description": "A modern, responsive website for a trading academy, focused on education, credibility, and SEO-driven frontend development.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Growcial Bull – Trading Academy Website",
-        "description": "A professional trading academy website built with React and Tailwind CSS, optimized for SEO and user engagement."
-      }
-    }
-  },
-  {
-    "id": "saasperia",
-    "slug": "saasperia-nextjs-saas-website-template",
-    "image": "https://i.ibb.co/X0w8tgf/Saa-SPeria.png",
-    "livePreview": "https://saasperia-next.vercel.app/",
-    "otherImages": [
-      "https://i.ibb.co/p6458cBx/saasperia1.png",
-      "https://i.ibb.co/hF43zmjY/saasperia2.png"
-    ],
-    "title": "SaaSPeria",
-    "category": "SaaS Website Template",
-    "projectSummary": "SaaSPeria is a premium multi-page Next.js SaaS website template designed for project management, remote collaboration, and productivity-focused startups, featuring responsive layouts and smooth animations.",
-    "overview": "SaaSPeria is a modern, multi-page SaaS website template built with Next.js 16 and Tailwind CSS. Designed for startups and productivity platforms, the template focuses on responsive layouts, modular components, and polished UX animations using HearthMotion. It is fully frontend/UI ready, SEO-optimized, and structured for future API integration.",
-    "objective": "The objective was to create a professional, reusable SaaS website template that developers can use as a foundation for project management or productivity platforms, ensuring clean code, smooth UX, and responsive design.",
-    "roleAndResponsibilities": [
-      "Frontend design and implementation using Next.js 16",
-      "Building modular and reusable UI components",
-      "Animating transitions and scrolling with HearthMotion",
-      "SEO-friendly markup and performance optimization",
-      "Structuring multi-page layouts for SaaS platforms",
-      "Preparing frontend for future API integration"
-    ],
-    "solutionStrategy": "A component-driven architecture was adopted for maximum reusability, scalability, and maintainability. HearthMotion (Lenis + Animate.css) was used for smooth scrolling and animated transitions. SEO best practices were applied across all pages, and the layout was fully responsive for desktop and mobile devices.",
-    "keyFeatures": [
-      "Multi-page SaaS layout with Home, Features, Pricing, Contact, Auth pages",
-      "Modular and reusable frontend components",
-      "Auth-ready UI (Login, Register, Forgot Password)",
-      "Smooth scrolling and animated transitions with HearthMotion",
-      "SEO-friendly and performance-optimized frontend",
-      "Clean structure for future API integration"
-    ],
-    "techStack": {
-      "frontend": ["Next.js 16", "React"],
-      "styling": ["Tailwind CSS"],
-      "animation": ["HearthMotion (Lenis + Animate.css)"],
-      "architecture": ["Component-driven, API-ready frontend"],
-      "seo": ["SEO-optimized markup", "Semantic HTML"]
-    },
-    "performanceAndOptimization": "All pages were optimized for fast loading, smooth animations, and mobile responsiveness. Clean markup, reusable components, and SEO-friendly structure ensure excellent performance and discoverability.",
-    "challengesAndLearnings": "Ensuring smooth animations across multiple pages while keeping a modular and reusable frontend structure was a key challenge. This project enhanced my skills in building performance-focused, scalable SaaS templates with polished UX.",
-    "finalOutcome": "SaaSPeria serves as a ready-to-use SaaS website template demonstrating modern frontend architecture, responsive design, smooth animations, and SEO-optimized layouts. It provides a professional starting point for startups and developers.",
-    "idealUseCases": [
-      "Project management SaaS platforms",
-      "Remote collaboration tools",
-      "Productivity and startup websites",
-      "Frontend template for React/Next.js developers"
-    ],
-    "meta": {
-      "title": "SaaSPeria – Next.js Multi-Page SaaS Website Template",
-      "description": "SaaSPeria is a premium Next.js SaaS website template with multi-page layouts, smooth HearthMotion animations, and modular components. SEO-optimized and frontend-ready for developers.",
-      "keywords": [
-        "Next.js SaaS template",
-        "SaaS website template",
-        "React frontend template",
-        "Tailwind CSS SaaS template",
-        "multi-page SaaS website",
-        "SEO optimized template",
-        "frontend UI template"
-      ],
-      "og": {
-        "title": "SaaSPeria – Modern Next.js SaaS Template",
-        "description": "A premium multi-page SaaS template built with Next.js 16 and Tailwind CSS, featuring smooth animations and reusable frontend components.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "SaaSPeria – Next.js SaaS Website Template",
-        "description": "A modern, frontend-ready SaaS website template with SEO-friendly, responsive layouts and smooth HearthMotion animations."
-      }
-    }
-  },
-  {
-    "id": "aaronn",
-    "slug": "aaronn-visual-designer-portfolio-website",
-    "livePreview": "https://aaronn-th.vercel.app/",
-    "image": "https://i.ibb.co/Qv04fF6M/aaronn.png",
-    "otherImages": [
-      "https://i.ibb.co/G45CXPwQ/aaronn1.png",
-      "https://i.ibb.co/m5YMCFkr/aaronn2.png"
-    ],
-    "title": "Aaronn",
-    "category": "Portfolio Website Template",
-    "projectSummary": "Aaronn is a premium multi-page portfolio template for visual designers, UI/UX professionals, and creatives, designed to showcase work clearly and professionally with smooth animations and responsive layouts.",
-    "overview": "Aaronn is a modern portfolio website template tailored for creative professionals. It emphasizes minimal yet expressive design, clear project case studies, and a smooth user experience. The template provides freelancers and agencies with a polished online presence while keeping the structure modular, reusable, and easy to customize.",
-    "objective": "The goal was to create a multi-page, responsive portfolio template that allows creatives to present their work, showcase testimonials, and provide a conversion-focused contact experience without backend dependencies.",
-    "roleAndResponsibilities": [
-      "Frontend development using Next.js / Vite",
-      "Implementing minimal and expressive layouts",
-      "Creating modular and reusable components",
-      "Smooth scroll and subtle motion effects",
-      "Responsive design for all devices",
-      "SEO-friendly markup and performance optimization"
-    ],
-    "solutionStrategy": "The template uses a component-driven architecture to ensure scalability and reusability. Smooth scrolling and subtle motion effects enhance user experience, while the layout prioritizes clarity, visual hierarchy, and high-impact project presentation. All pages are optimized for fast loading and responsiveness.",
-    "keyFeatures": [
-      "Multi-page portfolio layout with Home, About, My Works, Single Work, Contact",
-      "Dedicated case study / single project pages",
-      "Client testimonial section for social proof",
-      "Fully responsive and mobile-optimized design",
-      "Modular, clean, and easy-to-customize structure",
-      "Fast-loading modern frontend architecture with smooth motion effects"
-    ],
-    "techStack": {
-      "frontend": ["Next.js", "Vite", "React"],
-      "styling": ["Tailwind CSS"],
-      "animation": ["Smooth scroll", "Subtle motion effects"],
-      "architecture": ["Component-driven, modular frontend"],
-      "seo": ["SEO-friendly markup", "Semantic HTML"]
-    },
-    "performanceAndOptimization": "Pages are optimized for fast load times, mobile responsiveness, and smooth animations. Modular components and clean markup ensure maintainable code and high performance across devices.",
-    "challengesAndLearnings": "The main challenge was balancing minimal design with expressive visual flow while maintaining performance and modularity. This project strengthened my ability to build scalable portfolio templates that prioritize UX and high-impact presentation.",
-    "finalOutcome": "Aaronn provides a professional, frontend-ready portfolio template for visual designers and creatives. It demonstrates polished UI design, modular architecture, smooth interactions, and SEO-optimized layouts.",
-    "idealUseCases": [
-      "Visual designers and branding experts",
-      "UI/UX designers and creative professionals",
-      "Freelancers or solo creators",
-      "Creative agencies and portfolio showcase websites"
-    ],
-    "meta": {
-      "title": "Aaronn – Visual Designer Portfolio Website Template",
-      "description": "Aaronn is a premium multi-page portfolio template for creatives, designed with Next.js/Vite and Tailwind CSS, featuring responsive layouts, smooth motion, and SEO-friendly frontend structure.",
-      "keywords": [
-        "visual designer portfolio template",
-        "creative portfolio website",
-        "Next.js portfolio template",
-        "Tailwind CSS portfolio",
-        "frontend portfolio template",
-        "case study pages template",
-        "responsive creative website"
-      ],
-      "og": {
-        "title": "Aaronn – Portfolio Website Template for Creatives",
-        "description": "A premium multi-page portfolio template for visual designers and creative professionals with smooth animations and responsive design.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Aaronn – Visual Designer Portfolio Template",
-        "description": "A modern, frontend-ready portfolio template for creatives, built with Next.js/Vite and Tailwind CSS, optimized for responsive design and smooth motion."
-      }
-    }
-  },
-  {
-    "id": "consultiqo",
-    "slug": "consultiqo-business-consultancy-nextjs-site",
-    "livePreview": "https://consultiqo-next.vercel.app/",
-    "title": "Consultiqo",
-    "image": "https://i.ibb.co/1GGLM5Mb/consultiqo.png",
-    "otherImages": [
-      "https://i.ibb.co/dsc7n835/consultiqo1.png",
-      "https://i.ibb.co/XcR7jGt/consultiqo2.png"
-    ],
-    "category": "Consultancy Website Template",
-    "projectSummary": "Consultiqo is a sleek, modern, and fully responsive business consultancy website template. Built for agencies, startups, and freelancers, it delivers pixel-perfect design, SEO optimization, and a professional online presence without complex code.",
-    "overview": "Consultiqo is a multi-page consulting and agency landing page template designed to provide a polished digital presence. Developed with Next.js 15 and Tailwind CSS, the template ensures smooth performance, responsive layouts, and SEO-friendly structure. Ideal for business consultancy firms, marketing agencies, startups, and freelancers, it offers pre-built sections including services, testimonials, achievements, lead capture forms, and statistics to showcase credibility and professionalism.",
-    "objective": "The goal was to create a reusable, frontend-ready template that allows agencies and freelancers to quickly launch a professional website with engaging sections, conversion-focused CTAs, and clean layouts.",
-    "roleAndResponsibilities": [
-      "Frontend implementation using Next.js 15",
-      "Building modular and reusable components",
-      "Structuring multi-page layouts for consultancy needs",
-      "Smooth scrolling and animated transitions with HearthMotion",
-      "Responsive design and SEO optimization",
-      "Preparing the template for easy customization by users"
-    ],
-    "solutionStrategy": "The template adopts a component-driven structure to ensure scalability, maintainability, and modularity. Pre-built sections include Home, Services, Single Service, Pricing/Plans, Contact, Authentication pages, and legal pages. Each section is designed to be easily editable via HTML/CSS for colors, fonts, spacing, images, and content, enabling rapid customization.",
-    "keyFeatures": [
-      "Engaging hero/home section with actionable CTAs",
-      "Service & features showcase with clear layout",
-      "Client testimonials and social proof sections",
-      "Statistics and achievements display",
-      "Lead capture contact forms",
-      "SEO-friendly and responsive design",
-      "Modular and reusable components for easy customization",
-      "Frontend/UI only; ready for API/backend integration"
-    ],
-    "techStack": {
-      "frontend": ["Next.js 15", "React"],
-      "styling": ["Tailwind CSS"],
-      "animation": ["HearthMotion (Lenis + Animate.css)"],
-      "architecture": ["Component-driven, modular frontend"],
-      "seo": ["SEO-friendly structure", "Semantic HTML"]
-    },
-    "performanceAndOptimization": "Optimized for fast loading, responsive layouts, and smooth animations. Modular components and clean markup ensure maintainability, SEO visibility, and high performance across devices.",
-    "challengesAndLearnings": "Balancing modularity, smooth animations, and clear conversion-focused sections was a key challenge. This project enhanced skills in designing professional agency templates with frontend-first approach and SEO optimization.",
-    "finalOutcome": "Consultiqo is a professional, frontend-ready business consultancy website template that demonstrates modern design, modular architecture, SEO optimization, and smooth UX, enabling agencies and freelancers to launch their online presence quickly.",
-    "idealUseCases": [
-      "Business consultancy firms",
-      "Marketing and digital agencies",
-      "Startup consultancy websites",
-      "Freelancers offering professional services",
-      "Frontend template for React/Next.js developers"
-    ],
-    "guides": {
-      "gettingStarted": [
-        "Install dependencies: npm install",
-        "Start local development server: npm run dev",
-        "Build for production (optional): npm run build"
-      ],
-      "customization": [
-        "Images: Replace files in /public or /assets folder",
-        "Design System: Modify global styles (globals.css or tailwind.config.js) for colors, fonts, spacing",
-        "Custom Styles: Edit component-specific CSS or Tailwind classes",
-        "HTML/JSX Content: Update pages and components for headings, sections, and text"
-      ],
-      "usefulLinks": [
-        "Next.js Documentation: https://nextjs.org/docs",
-        "Tailwind CSS Documentation: https://tailwindcss.com/docs",
-        "React Documentation: https://react.dev/"
-      ]
-    },
-    "meta": {
-      "title": "Consultiqo – Sleek Business Consultancy Website Template",
-      "description": "Consultiqo is a modern, responsive consultancy and agency website template built with Next.js 15 and Tailwind CSS. SEO-friendly, modular, and ready for customization.",
-      "keywords": [
-        "business consultancy website template",
-        "agency landing page template",
-        "Next.js frontend template",
-        "Tailwind CSS consulting template",
-        "responsive business website",
-        "SEO-friendly agency template",
-        "freelancer website template"
-      ],
-      "og": {
-        "title": "Consultiqo – Modern Consultancy & Agency Template",
-        "description": "A professional, frontend-ready Next.js consulting website template with responsive layouts and modular components.",
-        "type": "website"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Consultiqo – Sleek Business Consultancy Template",
-        "description": "A modern, responsive consultancy website template with SEO-friendly layouts, pre-built sections, and smooth animations for agencies and freelancers."
-      }
-    }
-  }
+	{
+		"id": "geetbazaar",
+		"slug": "geetbazaar-music-distribution-platform",
+		"livePreview": "https://geetbazaar-landing.vercel.app/",
+		"image": "https://i.ibb.co/cKcsy0g6/Geet-Bazaar.png",
+		"title": "GeetBazaar",
+		"category": "Music Distribution Platform",
+		"projectSummary": "GeetBazaar is a modern music distribution platform designed to help artists publish, manage, and monetize their music across multiple digital platforms.",
+		"overview": "GeetBazaar is a full-scale music distribution web platform built to streamline the process of song uploads, metadata management, and release tracking for independent artists and labels. The platform focuses on usability, scalability, and performance while providing a clean and professional dashboard-driven experience.",
+		"objective": "The objective was to build a scalable and user-friendly music distribution system that allows artists to manage releases, track submissions, and interact with the platform through a secure and well-structured workflow.",
+		"roleAndResponsibilities": [
+			"Full-stack development and system architecture",
+			"Dashboard and form-based workflow implementation",
+			"Song upload and metadata handling",
+			"Admin and role-based access management",
+			"Performance optimization and SEO-friendly frontend",
+			"Ongoing maintenance and feature improvements"
+		],
+		"solutionStrategy": "A modular, component-driven architecture was implemented to handle complex workflows such as multi-song uploads, metadata validation, and admin review processes. The system was designed to be scalable, allowing future expansion for analytics, revenue tracking, and additional distribution features.",
+		"keyFeatures": [
+			"Artist dashboard for managing music releases",
+			"Multi-song upload system with structured metadata",
+			"Admin panel for release review and management",
+			"Role-based access control for employees and admins",
+			"Responsive and dashboard-friendly UI",
+			"Clean navigation for complex workflows"
+		],
+		"techStack": {
+			"frontend": ["React", "Next.js"],
+			"backend": ["Node.js", "Express"],
+			"database": ["MongoDB"],
+			"architecture": ["MERN stack", "Role-based system design"],
+			"seo": ["SEO-optimized frontend structure"]
+		},
+		"performanceAndOptimization": "The platform was optimized for handling large forms, file uploads, and dashboard interactions efficiently. Clean state management, optimized API calls, and responsive layouts ensure smooth performance across devices.",
+		"challengesAndLearnings": "Managing complex form data, file uploads, and role-based workflows was a key challenge. This project strengthened my experience in building scalable MERN-based systems with real-world business logic and long-term maintainability.",
+		"finalOutcome": "GeetBazaar demonstrates my ability to work on production-level platforms involving complex workflows, dashboards, and role-based systems. The project highlights strong full-stack skills, problem-solving ability, and attention to scalability.",
+		"idealUseCases": [
+			"Independent music distribution platforms",
+			"Artist and label management systems",
+			"Digital content publishing platforms",
+			"Dashboard-driven web applications"
+		],
+		"meta": {
+			"title": "GeetBazaar – Music Distribution Platform for Artists",
+			"description": "GeetBazaar is a scalable music distribution platform built with the MERN stack, enabling artists to upload, manage, and distribute their music through a modern dashboard.",
+			"keywords": [
+				"music distribution platform",
+				"artist dashboard system",
+				"MERN stack web application",
+				"music upload platform",
+				"admin dashboard web app",
+				"digital content management system"
+			],
+			"og": {
+				"title": "GeetBazaar – Modern Music Distribution Platform",
+				"description": "A full-scale music distribution web platform built with modern MERN architecture and dashboard-driven workflows.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "GeetBazaar – Music Distribution Platform",
+				"description": "A modern MERN-based music distribution platform designed for artists, labels, and scalable content management."
+			}
+		}
+	},
+	{
+		"id": "growcial-bull",
+		"slug": "growcial-bull-modern-crypto-trading-landing-page",
+		"livePreview": "https://growcialbull.com/",
+		"image": "https://i.ibb.co/x8fkmW1r/Growcial-Bull.png",
+		"title": "Growcial Bull",
+		"category": "Crypto & Trading Academy Website",
+		"projectSummary": "Growcial Bull is a modern, multi-page website built for a trading academy to showcase courses, blogs, and educational resources with a professional and SEO-optimized structure.",
+		"overview": "Growcial Bull is a modern, responsive website developed for a trading academy that educates students and aspiring traders in real stock market concepts. The platform presents courses, educational blogs, milestones, and resources in a clean and engaging format, focusing on credibility, clarity, and accessibility.",
+		"objective": "The objective was to build a multi-page, mobile-first website that effectively communicates the academy’s mission, educational offerings, and expertise while ensuring strong SEO performance and smooth user experience.",
+		"roleAndResponsibilities": [
+			"Frontend development and layout structuring",
+			"Responsive UI implementation",
+			"SEO-friendly page architecture",
+			"Dynamic blog section development",
+			"Contact and newsletter form integration",
+			"Component reusability and clean code practices"
+		],
+		"solutionStrategy": "A component-based frontend architecture was used to ensure scalability and consistency across pages. The layout was designed with a mobile-first approach, clear call-to-actions, and structured content sections to guide users through courses, resources, and community engagement.",
+		"keyFeatures": [
+			"Multi-page website with clear information hierarchy",
+			"Hero section highlighting academy values and vision",
+			"Dynamic blog system for trading strategies and insights",
+			"Accordion-based FAQ section for common questions",
+			"Newsletter subscription integration",
+			"Contact form with callback request option",
+			"Smooth navigation with conversion-focused CTAs"
+		],
+		"techStack": {
+			"frontend": ["React"],
+			"styling": ["Tailwind CSS"],
+			"architecture": ["Component-based structure"],
+			"seo": ["SEO-optimized page structure", "Semantic HTML"]
+		},
+		"performanceAndOptimization": "The website was optimized for responsiveness, fast loading, and SEO visibility. Clean markup, structured content, and optimized layouts ensure a smooth experience across all devices and improved discoverability in search engines.",
+		"challengesAndLearnings": "Designing a content-heavy educational website required careful information structuring to maintain clarity without overwhelming users. This project strengthened my ability to balance educational content with usability and conversion-focused design.",
+		"finalOutcome": "The completed website provided Growcial Bull with a strong digital presence, helping the brand build credibility, attract new students, and effectively showcase expertise in equity and derivatives trading education.",
+		"idealUseCases": [
+			"Trading and crypto education platforms",
+			"Online academies and coaching institutes",
+			"Financial education websites",
+			"Content-driven educational businesses"
+		],
+		"meta": {
+			"title": "Growcial Bull – Modern Crypto & Trading Academy Website",
+			"description": "Growcial Bull is a modern, SEO-optimized trading academy website built with React and Tailwind CSS to showcase courses, blogs, and educational resources.",
+			"keywords": [
+				"crypto trading website",
+				"trading academy website",
+				"financial education platform",
+				"React landing page",
+				"SEO optimized educational website",
+				"Tailwind CSS website"
+			],
+			"og": {
+				"title": "Growcial Bull – Crypto & Trading Academy Website",
+				"description": "A modern, responsive website for a trading academy, focused on education, credibility, and SEO-driven frontend development.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "Growcial Bull – Trading Academy Website",
+				"description": "A professional trading academy website built with React and Tailwind CSS, optimized for SEO and user engagement."
+			}
+		}
+	},
+	{
+		"id": "saasperia",
+		"slug": "saasperia-nextjs-saas-website-template",
+		"image": "https://i.ibb.co/X0w8tgf/Saa-SPeria.png",
+		"livePreview": "https://saasperia-next.vercel.app/",
+		"otherImages": [
+			"https://i.ibb.co/p6458cBx/saasperia1.png",
+			"https://i.ibb.co/hF43zmjY/saasperia2.png"
+		],
+		"title": "SaaSPeria",
+		"category": "SaaS Website Template",
+		"projectSummary": "SaaSPeria is a premium multi-page Next.js SaaS website template designed for project management, remote collaboration, and productivity-focused startups, featuring responsive layouts and smooth animations.",
+		"overview": "SaaSPeria is a modern, multi-page SaaS website template built with Next.js 16 and Tailwind CSS. Designed for startups and productivity platforms, the template focuses on responsive layouts, modular components, and polished UX animations using HearthMotion. It is fully frontend/UI ready, SEO-optimized, and structured for future API integration.",
+		"objective": "The objective was to create a professional, reusable SaaS website template that developers can use as a foundation for project management or productivity platforms, ensuring clean code, smooth UX, and responsive design.",
+		"roleAndResponsibilities": [
+			"Frontend design and implementation using Next.js 16",
+			"Building modular and reusable UI components",
+			"Animating transitions and scrolling with HearthMotion",
+			"SEO-friendly markup and performance optimization",
+			"Structuring multi-page layouts for SaaS platforms",
+			"Preparing frontend for future API integration"
+		],
+		"solutionStrategy": "A component-driven architecture was adopted for maximum reusability, scalability, and maintainability. HearthMotion (Lenis + Animate.css) was used for smooth scrolling and animated transitions. SEO best practices were applied across all pages, and the layout was fully responsive for desktop and mobile devices.",
+		"keyFeatures": [
+			"Multi-page SaaS layout with Home, Features, Pricing, Contact, Auth pages",
+			"Modular and reusable frontend components",
+			"Auth-ready UI (Login, Register, Forgot Password)",
+			"Smooth scrolling and animated transitions with HearthMotion",
+			"SEO-friendly and performance-optimized frontend",
+			"Clean structure for future API integration"
+		],
+		"techStack": {
+			"frontend": ["Next.js 16", "React"],
+			"styling": ["Tailwind CSS"],
+			"animation": ["HearthMotion (Lenis + Animate.css)"],
+			"architecture": ["Component-driven, API-ready frontend"],
+			"seo": ["SEO-optimized markup", "Semantic HTML"]
+		},
+		"performanceAndOptimization": "All pages were optimized for fast loading, smooth animations, and mobile responsiveness. Clean markup, reusable components, and SEO-friendly structure ensure excellent performance and discoverability.",
+		"challengesAndLearnings": "Ensuring smooth animations across multiple pages while keeping a modular and reusable frontend structure was a key challenge. This project enhanced my skills in building performance-focused, scalable SaaS templates with polished UX.",
+		"finalOutcome": "SaaSPeria serves as a ready-to-use SaaS website template demonstrating modern frontend architecture, responsive design, smooth animations, and SEO-optimized layouts. It provides a professional starting point for startups and developers.",
+		"idealUseCases": [
+			"Project management SaaS platforms",
+			"Remote collaboration tools",
+			"Productivity and startup websites",
+			"Frontend template for React/Next.js developers"
+		],
+		"meta": {
+			"title": "SaaSPeria – Next.js Multi-Page SaaS Website Template",
+			"description": "SaaSPeria is a premium Next.js SaaS website template with multi-page layouts, smooth HearthMotion animations, and modular components. SEO-optimized and frontend-ready for developers.",
+			"keywords": [
+				"Next.js SaaS template",
+				"SaaS website template",
+				"React frontend template",
+				"Tailwind CSS SaaS template",
+				"multi-page SaaS website",
+				"SEO optimized template",
+				"frontend UI template"
+			],
+			"og": {
+				"title": "SaaSPeria – Modern Next.js SaaS Template",
+				"description": "A premium multi-page SaaS template built with Next.js 16 and Tailwind CSS, featuring smooth animations and reusable frontend components.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "SaaSPeria – Next.js SaaS Website Template",
+				"description": "A modern, frontend-ready SaaS website template with SEO-friendly, responsive layouts and smooth HearthMotion animations."
+			}
+		}
+	},
+	{
+		"id": "aaronn",
+		"slug": "aaronn-visual-designer-portfolio-website",
+		"livePreview": "https://aaronn-th.vercel.app/",
+		"image": "https://i.ibb.co/Qv04fF6M/aaronn.png",
+		"otherImages": [
+			"https://i.ibb.co/G45CXPwQ/aaronn1.png",
+			"https://i.ibb.co/m5YMCFkr/aaronn2.png"
+		],
+		"title": "Aaronn",
+		"category": "Portfolio Website Template",
+		"projectSummary": "Aaronn is a premium multi-page portfolio template for visual designers, UI/UX professionals, and creatives, designed to showcase work clearly and professionally with smooth animations and responsive layouts.",
+		"overview": "Aaronn is a modern portfolio website template tailored for creative professionals. It emphasizes minimal yet expressive design, clear project case studies, and a smooth user experience. The template provides freelancers and agencies with a polished online presence while keeping the structure modular, reusable, and easy to customize.",
+		"objective": "The goal was to create a multi-page, responsive portfolio template that allows creatives to present their work, showcase testimonials, and provide a conversion-focused contact experience without backend dependencies.",
+		"roleAndResponsibilities": [
+			"Frontend development using Next.js / Vite",
+			"Implementing minimal and expressive layouts",
+			"Creating modular and reusable components",
+			"Smooth scroll and subtle motion effects",
+			"Responsive design for all devices",
+			"SEO-friendly markup and performance optimization"
+		],
+		"solutionStrategy": "The template uses a component-driven architecture to ensure scalability and reusability. Smooth scrolling and subtle motion effects enhance user experience, while the layout prioritizes clarity, visual hierarchy, and high-impact project presentation. All pages are optimized for fast loading and responsiveness.",
+		"keyFeatures": [
+			"Multi-page portfolio layout with Home, About, My Works, Single Work, Contact",
+			"Dedicated case study / single project pages",
+			"Client testimonial section for social proof",
+			"Fully responsive and mobile-optimized design",
+			"Modular, clean, and easy-to-customize structure",
+			"Fast-loading modern frontend architecture with smooth motion effects"
+		],
+		"techStack": {
+			"frontend": ["Next.js", "Vite", "React"],
+			"styling": ["Tailwind CSS"],
+			"animation": ["Smooth scroll", "Subtle motion effects"],
+			"architecture": ["Component-driven, modular frontend"],
+			"seo": ["SEO-friendly markup", "Semantic HTML"]
+		},
+		"performanceAndOptimization": "Pages are optimized for fast load times, mobile responsiveness, and smooth animations. Modular components and clean markup ensure maintainable code and high performance across devices.",
+		"challengesAndLearnings": "The main challenge was balancing minimal design with expressive visual flow while maintaining performance and modularity. This project strengthened my ability to build scalable portfolio templates that prioritize UX and high-impact presentation.",
+		"finalOutcome": "Aaronn provides a professional, frontend-ready portfolio template for visual designers and creatives. It demonstrates polished UI design, modular architecture, smooth interactions, and SEO-optimized layouts.",
+		"idealUseCases": [
+			"Visual designers and branding experts",
+			"UI/UX designers and creative professionals",
+			"Freelancers or solo creators",
+			"Creative agencies and portfolio showcase websites"
+		],
+		"meta": {
+			"title": "Aaronn – Visual Designer Portfolio Website Template",
+			"description": "Aaronn is a premium multi-page portfolio template for creatives, designed with Next.js/Vite and Tailwind CSS, featuring responsive layouts, smooth motion, and SEO-friendly frontend structure.",
+			"keywords": [
+				"visual designer portfolio template",
+				"creative portfolio website",
+				"Next.js portfolio template",
+				"Tailwind CSS portfolio",
+				"frontend portfolio template",
+				"case study pages template",
+				"responsive creative website"
+			],
+			"og": {
+				"title": "Aaronn – Portfolio Website Template for Creatives",
+				"description": "A premium multi-page portfolio template for visual designers and creative professionals with smooth animations and responsive design.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "Aaronn – Visual Designer Portfolio Template",
+				"description": "A modern, frontend-ready portfolio template for creatives, built with Next.js/Vite and Tailwind CSS, optimized for responsive design and smooth motion."
+			}
+		}
+	},
+	{
+		"id": "consultiqo",
+		"slug": "consultiqo-business-consultancy-nextjs-site",
+		"livePreview": "https://consultiqo-next.vercel.app/",
+		"title": "Consultiqo",
+		"image": "https://i.ibb.co/1GGLM5Mb/consultiqo.png",
+		"otherImages": [
+			"https://i.ibb.co/dsc7n835/consultiqo1.png",
+			"https://i.ibb.co/XcR7jGt/consultiqo2.png"
+		],
+		"category": "Consultancy Website Template",
+		"projectSummary": "Consultiqo is a sleek, modern, and fully responsive business consultancy website template. Built for agencies, startups, and freelancers, it delivers pixel-perfect design, SEO optimization, and a professional online presence without complex code.",
+		"overview": "Consultiqo is a multi-page consulting and agency landing page template designed to provide a polished digital presence. Developed with Next.js 15 and Tailwind CSS, the template ensures smooth performance, responsive layouts, and SEO-friendly structure. Ideal for business consultancy firms, marketing agencies, startups, and freelancers, it offers pre-built sections including services, testimonials, achievements, lead capture forms, and statistics to showcase credibility and professionalism.",
+		"objective": "The goal was to create a reusable, frontend-ready template that allows agencies and freelancers to quickly launch a professional website with engaging sections, conversion-focused CTAs, and clean layouts.",
+		"roleAndResponsibilities": [
+			"Frontend implementation using Next.js 15",
+			"Building modular and reusable components",
+			"Structuring multi-page layouts for consultancy needs",
+			"Smooth scrolling and animated transitions with HearthMotion",
+			"Responsive design and SEO optimization",
+			"Preparing the template for easy customization by users"
+		],
+		"solutionStrategy": "The template adopts a component-driven structure to ensure scalability, maintainability, and modularity. Pre-built sections include Home, Services, Single Service, Pricing/Plans, Contact, Authentication pages, and legal pages. Each section is designed to be easily editable via HTML/CSS for colors, fonts, spacing, images, and content, enabling rapid customization.",
+		"keyFeatures": [
+			"Engaging hero/home section with actionable CTAs",
+			"Service & features showcase with clear layout",
+			"Client testimonials and social proof sections",
+			"Statistics and achievements display",
+			"Lead capture contact forms",
+			"SEO-friendly and responsive design",
+			"Modular and reusable components for easy customization",
+			"Frontend/UI only; ready for API/backend integration"
+		],
+		"techStack": {
+			"frontend": ["Next.js 15", "React"],
+			"styling": ["Tailwind CSS"],
+			"animation": ["HearthMotion (Lenis + Animate.css)"],
+			"architecture": ["Component-driven, modular frontend"],
+			"seo": ["SEO-friendly structure", "Semantic HTML"]
+		},
+		"performanceAndOptimization": "Optimized for fast loading, responsive layouts, and smooth animations. Modular components and clean markup ensure maintainability, SEO visibility, and high performance across devices.",
+		"challengesAndLearnings": "Balancing modularity, smooth animations, and clear conversion-focused sections was a key challenge. This project enhanced skills in designing professional agency templates with frontend-first approach and SEO optimization.",
+		"finalOutcome": "Consultiqo is a professional, frontend-ready business consultancy website template that demonstrates modern design, modular architecture, SEO optimization, and smooth UX, enabling agencies and freelancers to launch their online presence quickly.",
+		"idealUseCases": [
+			"Business consultancy firms",
+			"Marketing and digital agencies",
+			"Startup consultancy websites",
+			"Freelancers offering professional services",
+			"Frontend template for React/Next.js developers"
+		],
+		"guides": {
+			"gettingStarted": [
+				"Install dependencies: npm install",
+				"Start local development server: npm run dev",
+				"Build for production (optional): npm run build"
+			],
+			"customization": [
+				"Images: Replace files in /public or /assets folder",
+				"Design System: Modify global styles (globals.css or tailwind.config.js) for colors, fonts, spacing",
+				"Custom Styles: Edit component-specific CSS or Tailwind classes",
+				"HTML/JSX Content: Update pages and components for headings, sections, and text"
+			],
+			"usefulLinks": [
+				"Next.js Documentation: https://nextjs.org/docs",
+				"Tailwind CSS Documentation: https://tailwindcss.com/docs",
+				"React Documentation: https://react.dev/"
+			]
+		},
+		"meta": {
+			"title": "Consultiqo – Sleek Business Consultancy Website Template",
+			"description": "Consultiqo is a modern, responsive consultancy and agency website template built with Next.js 15 and Tailwind CSS. SEO-friendly, modular, and ready for customization.",
+			"keywords": [
+				"business consultancy website template",
+				"agency landing page template",
+				"Next.js frontend template",
+				"Tailwind CSS consulting template",
+				"responsive business website",
+				"SEO-friendly agency template",
+				"freelancer website template"
+			],
+			"og": {
+				"title": "Consultiqo – Modern Consultancy & Agency Template",
+				"description": "A professional, frontend-ready Next.js consulting website template with responsive layouts and modular components.",
+				"type": "website"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "Consultiqo – Sleek Business Consultancy Template",
+				"description": "A modern, responsive consultancy website template with SEO-friendly layouts, pre-built sections, and smooth animations for agencies and freelancers."
+			}
+		}
+	},
+	{
+		"id": "workshop-management-system",
+		"slug": "workshop-management-system",
+		"image": "https://i.ibb.co/ch1ktTQr/dextar-studio-XP8o9-Arwqg-unsplash.jpg",
+		"livePreview": "",
+		"title": "WMS",
+		"category": "Workshop Management System",
+		"projectSummary": "Workshop Management System is a full-stack business management platform designed to streamline automotive workshop operations, including customers, vehicles, quotations, work orders, inventory, bookings, invoices, employees, and administrative workflows.",
+		"overview": "Workshop Management System is a modern web-based platform built to centralize core automotive workshop operations within a unified application. The system provides structured workflows for managing customers, vehicles, workshop services, inventory, bookings, billing, employees, and user access while maintaining a consistent and scalable business application architecture.",
+		"objective": "The goal was to build a reliable and scalable workshop management platform that could replace fragmented operational processes with a centralized digital system, allowing workshop staff to manage day-to-day activities efficiently through a modern and intuitive interface.",
+		"roleAndResponsibilities": [
+			"Frontend architecture and feature development",
+			"Responsive dashboard and business UI development",
+			"Reusable component and design system development",
+			"API integration and server-state management",
+			"Form development and schema-based validation",
+			"Authentication and access-control related workflows",
+			"CRUD feature implementation across multiple business modules",
+			"Search, filtering, pagination, loading, and error-state implementation",
+			"Backend API development and database integration",
+			"Production readiness and feature refinement"
+		],
+		"solutionStrategy": "The system was developed using a modular full-stack architecture with React and TypeScript on the frontend and a TypeScript-based backend connected to PostgreSQL. A reusable component-driven UI system was implemented to maintain consistency across business modules, while dedicated service layers and server-state management patterns were used to keep API integration organized and maintainable.",
+		"keyFeatures": [
+			"Customer and vehicle management",
+			"Quotation and work order management",
+			"Mechanic and employee management",
+			"Parts inventory and supplier management",
+			"Workshop booking management",
+			"Loan vehicle management",
+			"Invoice management",
+			"Role and permission management",
+			"User and organization management",
+			"Administrative configuration",
+			"Search, filtering, and pagination",
+			"Responsive POS/ERP-style dashboard interface"
+		],
+		"techStack": {
+			"frontend": ["React", "TypeScript", "React Router"],
+			"styling": ["Tailwind CSS"],
+			"backend": ["Node.js", "Express", "TypeScript"],
+			"database": ["PostgreSQL", "Prisma ORM"],
+			"architecture": [
+				"Feature-based architecture",
+				"Modular full-stack architecture",
+				"Multi-tenant SaaS architecture",
+				"REST-oriented API architecture"
+			],
+			"seo": ["SEO-friendly application structure", "Semantic HTML"],
+			"tools": [
+				"React Hook Form",
+				"Zod",
+				"TanStack Query",
+				"Axios",
+				"Lucide React"
+			]
+		},
+		"performanceAndOptimization": "The application was structured with reusable components, server-state caching, paginated data fetching, modular feature organization, and optimized API interaction patterns. Consistent loading, empty, and error states were implemented to provide a reliable experience across data-heavy business modules.",
+		"challengesAndLearnings": "One of the major challenges was designing a consistent experience across a large number of interconnected business modules while keeping the codebase maintainable. Working across workshop operations, inventory, billing, user management, permissions, and API integration strengthened my experience in building scalable business applications and translating complex operational requirements into structured software workflows.",
+		"finalOutcome": "The project resulted in a comprehensive workshop management platform that brings core operational and administrative workflows into a centralized digital environment. It demonstrates my ability to work on large-scale business applications, develop reusable frontend architecture, integrate backend services, and build production-oriented interfaces with TypeScript.",
+		"idealUseCases": [
+			"Automotive workshops managing daily operations",
+			"Service centers managing customer and vehicle workflows",
+			"Workshop teams handling work orders and bookings",
+			"Businesses managing parts and inventory",
+			"Organizations requiring role-based operational access"
+		],
+		"meta": {
+			"title": "Workshop Management System – Full-Stack Automotive Workshop Platform",
+			"description": "A full-stack workshop management platform built with React, TypeScript, Express, Prisma, and PostgreSQL to manage customers, vehicles, work orders, inventory, bookings, invoices, employees, and administrative workflows.",
+			"keywords": [
+				"workshop management system",
+				"automotive workshop software",
+				"workshop management platform",
+				"React workshop management system",
+				"TypeScript ERP application",
+				"vehicle service management",
+				"automotive service software",
+				"work order management system"
+			],
+			"og": {
+				"title": "Workshop Management System – Full-Stack Business Platform",
+				"description": "A modern full-stack workshop management platform for managing automotive service operations, customers, vehicles, inventory, bookings, invoices, and administrative workflows.",
+				"type": "websit"
+			},
+			"twitter": {
+				"card": "summary_large_image",
+				"title": "Workshop Management System – Automotive Workshop Platform",
+				"description": "A scalable full-stack workshop management platform built with React, TypeScript, Express, Prisma, and PostgreSQL"
+			}
+		}
+	}
 ]
